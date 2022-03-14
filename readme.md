@@ -16,10 +16,10 @@ The code repository for "Forward Compatible Few-Shot Class-Incremental Learning
 
 Novel classes frequently arise in our dynamically changing world, e.g., new users in the authentication system, and a machine learning model should recognize new classes without forgetting old ones. This scenario becomes more challenging when new class instances are insufficient, which is called few-shot class-incremental learning (FSCIL). Current methods handle incremental learning retrospectively by making the updated model similar to the old one. By contrast, we suggest learning prospectively to prepare for future updates, and propose ForwArd Compatible Training (FACT) for FSCIL. Forward compatibility requires future new classes to be easily incorporated into the current model based on the current stage data, and we seek to realize it by reserving embedding space for future new classes. In detail, we assign virtual prototypes to squeeze the embedding of known classes and reserve for new ones. Besides, we forecast possible new classes and prepare for the updating process. The virtual prototypes allow the model to accept possible updates in the future, which act as proxies scattered among embedding space to build a stronger classifier during inference. FACT efficiently incorporates new classes with forward compatibility and meanwhile resists forgetting of old ones. Extensive experiments on benchmark and large scale datasets validate FACT's state-of-the-art performance.
 
-<img src='imgs/teaser.png' width='900' height='280'>
+<img src='imgs/teaser.png' width='900' height='494'>
 
 ## Results
-<img src='imgs/result.png' width='900' height='280'>
+<img src='imgs/result.png' width='900' height='563'>
 
 Please refer to our [paper]() for detailed values.
 
