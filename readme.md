@@ -2,7 +2,7 @@
 # Forward Compatible Few-Shot Class-Incremental Learning  (FACT)
 
 The code repository for "Forward Compatible Few-Shot Class-Incremental Learning
-" [[paper]]() (CVPR22) in PyTorch. If you use any content of this repo for your work, please cite the following bib entry:
+" [[paper]](https://arxiv.org/abs/2203.06953) (CVPR22) in PyTorch. If you use any content of this repo for your work, please cite the following bib entry:
 
     @inproceedings{zhou2022forward,
     title={Forward Compatible Few-Shot Class-Incremental Learning},
@@ -21,7 +21,7 @@ Novel classes frequently arise in our dynamically changing world, e.g., new user
 ## Results
 <img src='imgs/result.png' width='900' height='563'>
 
-Please refer to our [paper]() for detailed values.
+Please refer to our [paper](https://arxiv.org/abs/2203.06953) for detailed values.
 
 ## Prerequisites
 
