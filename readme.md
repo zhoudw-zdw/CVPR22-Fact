@@ -63,7 +63,7 @@ There are four parts in the code.
 
 Remember to change `YOURDATAROOT` into your own data root, or you will encounter errors.
 
-  
+Using the definitely same scripts above, you are supposed to reproduce the results in [CIFAR-FACT.txt](https://github.com/zhoudw-zdw/CVPR22-Fact/blob/main/imgs/CIFAR-FACT.txt), [CUB-FACT.txt](https://github.com/zhoudw-zdw/CVPR22-Fact/blob/main/imgs/CUB-FACT.txt), and [MINI-FACT.txt](https://github.com/zhoudw-zdw/CVPR22-Fact/blob/main/imgs/MINI-FACT.txt).
 
  
 ## Acknowledgment
