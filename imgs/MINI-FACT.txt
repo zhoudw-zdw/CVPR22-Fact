@@ -1,0 +1,4252 @@
+manual seed: 1
+{'alpha': 0.5,
+ 'balance': 0.01,
+ 'base_mode': 'ft_cos',
+ 'batch_size_base': 128,
+ 'batch_size_new': 0,
+ 'dataroot': '/data/zhoudw/FSCIL',
+ 'dataset': 'mini_imagenet',
+ 'debug': False,
+ 'decay': 0.0005,
+ 'epochs_base': 1000,
+ 'epochs_new': 100,
+ 'eta': 0.1,
+ 'gamma': 0.1,
+ 'gpu': '1,2,3,0',
+ 'loss_iter': 150,
+ 'lr_base': 0.1,
+ 'lr_new': 0.1,
+ 'milestones': [60, 70],
+ 'model_dir': None,
+ 'momentum': 0.9,
+ 'new_mode': 'avg_cos',
+ 'not_data_init': False,
+ 'num_workers': 8,
+ 'project': 'fact',
+ 'schedule': 'Cosine',
+ 'seed': 1,
+ 'set_no_val': False,
+ 'start_session': 0,
+ 'step': 20,
+ 'temperature': 16.0,
+ 'test_batch_size': 100}
+use gpu: [1, 2, 3, 0]
+torch.Size([40, 512])
+self.dummy_orthogonal_classifier.weight initialized over.
+random init params
+new classes for this session:
+ [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+ 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+ 48 49 50 51 52 53 54 55 56 57 58 59]
+epo 0, test, loss=3.7495 acc=0.0978
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 0, best test acc=9.783
+This epoch takes 73 seconds 
+still need around 1222.45 mins to finish this session
+epo 1, test, loss=3.4098 acc=0.1470
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 1, best test acc=14.700
+This epoch takes 53 seconds 
+still need around 897.06 mins to finish this session
+epo 2, test, loss=3.3141 acc=0.1708
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 2, best test acc=17.083
+This epoch takes 54 seconds 
+still need around 902.27 mins to finish this session
+epo 3, test, loss=3.0366 acc=0.2333
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 3, best test acc=23.333
+This epoch takes 53 seconds 
+still need around 889.31 mins to finish this session
+epo 4, test, loss=2.9440 acc=0.2460
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 4, best test acc=24.600
+This epoch takes 53 seconds 
+still need around 884.66 mins to finish this session
+epo 5, test, loss=2.7482 acc=0.2880
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 5, best test acc=28.800
+This epoch takes 52 seconds 
+still need around 878.27 mins to finish this session
+epo 6, test, loss=2.7030 acc=0.2905
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 6, best test acc=29.050
+This epoch takes 51 seconds 
+still need around 856.51 mins to finish this session
+epo 7, test, loss=2.8281 acc=0.2860
+best epoch 6, best test acc=29.050
+This epoch takes 52 seconds 
+still need around 874.98 mins to finish this session
+epo 8, test, loss=2.6184 acc=0.3247
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 8, best test acc=32.467
+This epoch takes 50 seconds 
+still need around 836.50 mins to finish this session
+epo 9, test, loss=2.8453 acc=0.2780
+best epoch 8, best test acc=32.467
+This epoch takes 50 seconds 
+still need around 828.38 mins to finish this session
+epo 10, test, loss=2.5681 acc=0.3208
+best epoch 8, best test acc=32.467
+This epoch takes 52 seconds 
+still need around 868.20 mins to finish this session
+epo 11, test, loss=2.4882 acc=0.3408
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 11, best test acc=34.083
+This epoch takes 52 seconds 
+still need around 870.82 mins to finish this session
+epo 12, test, loss=2.3916 acc=0.3688
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 12, best test acc=36.883
+This epoch takes 51 seconds 
+still need around 854.90 mins to finish this session
+epo 13, test, loss=2.5339 acc=0.3332
+best epoch 12, best test acc=36.883
+This epoch takes 51 seconds 
+still need around 842.61 mins to finish this session
+epo 14, test, loss=2.3845 acc=0.3672
+best epoch 12, best test acc=36.883
+This epoch takes 51 seconds 
+still need around 842.11 mins to finish this session
+epo 15, test, loss=2.4729 acc=0.3653
+best epoch 12, best test acc=36.883
+This epoch takes 50 seconds 
+still need around 832.25 mins to finish this session
+epo 16, test, loss=2.3719 acc=0.3762
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 16, best test acc=37.617
+This epoch takes 49 seconds 
+still need around 817.64 mins to finish this session
+epo 17, test, loss=2.3556 acc=0.3815
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 17, best test acc=38.150
+This epoch takes 50 seconds 
+still need around 824.29 mins to finish this session
+epo 18, test, loss=2.3096 acc=0.3962
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 18, best test acc=39.617
+This epoch takes 50 seconds 
+still need around 821.42 mins to finish this session
+epo 19, test, loss=2.2315 acc=0.4035
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 19, best test acc=40.350
+This epoch takes 51 seconds 
+still need around 846.02 mins to finish this session
+epo 20, test, loss=2.2618 acc=0.4058
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 20, best test acc=40.583
+This epoch takes 50 seconds 
+still need around 832.77 mins to finish this session
+epo 21, test, loss=2.6162 acc=0.3382
+best epoch 20, best test acc=40.583
+This epoch takes 52 seconds 
+still need around 862.77 mins to finish this session
+epo 22, test, loss=2.2498 acc=0.4062
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 22, best test acc=40.617
+This epoch takes 52 seconds 
+still need around 857.36 mins to finish this session
+epo 23, test, loss=2.1996 acc=0.4180
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 23, best test acc=41.800
+This epoch takes 52 seconds 
+still need around 848.22 mins to finish this session
+epo 24, test, loss=2.2408 acc=0.4158
+best epoch 23, best test acc=41.800
+This epoch takes 52 seconds 
+still need around 852.25 mins to finish this session
+epo 25, test, loss=2.1116 acc=0.4423
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 25, best test acc=44.233
+This epoch takes 49 seconds 
+still need around 810.00 mins to finish this session
+epo 26, test, loss=2.3935 acc=0.3785
+best epoch 25, best test acc=44.233
+This epoch takes 54 seconds 
+still need around 878.58 mins to finish this session
+epo 27, test, loss=2.1639 acc=0.4200
+best epoch 25, best test acc=44.233
+This epoch takes 52 seconds 
+still need around 850.09 mins to finish this session
+epo 28, test, loss=2.4918 acc=0.3785
+best epoch 25, best test acc=44.233
+This epoch takes 54 seconds 
+still need around 882.76 mins to finish this session
+epo 29, test, loss=2.2732 acc=0.4023
+best epoch 25, best test acc=44.233
+This epoch takes 52 seconds 
+still need around 856.20 mins to finish this session
+epo 30, test, loss=2.2297 acc=0.4062
+best epoch 25, best test acc=44.233
+This epoch takes 53 seconds 
+still need around 864.82 mins to finish this session
+epo 31, test, loss=2.1120 acc=0.4410
+best epoch 25, best test acc=44.233
+This epoch takes 52 seconds 
+still need around 854.27 mins to finish this session
+epo 32, test, loss=1.9636 acc=0.4807
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 32, best test acc=48.067
+This epoch takes 51 seconds 
+still need around 828.46 mins to finish this session
+epo 33, test, loss=2.1361 acc=0.4333
+best epoch 32, best test acc=48.067
+This epoch takes 53 seconds 
+still need around 857.17 mins to finish this session
+epo 34, test, loss=2.0588 acc=0.4517
+best epoch 32, best test acc=48.067
+This epoch takes 51 seconds 
+still need around 827.51 mins to finish this session
+epo 35, test, loss=2.0603 acc=0.4493
+best epoch 32, best test acc=48.067
+This epoch takes 52 seconds 
+still need around 847.25 mins to finish this session
+epo 36, test, loss=2.7044 acc=0.3240
+best epoch 32, best test acc=48.067
+This epoch takes 51 seconds 
+still need around 832.18 mins to finish this session
+epo 37, test, loss=1.9718 acc=0.4710
+best epoch 32, best test acc=48.067
+This epoch takes 50 seconds 
+still need around 806.75 mins to finish this session
+epo 38, test, loss=1.9402 acc=0.4822
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 38, best test acc=48.217
+This epoch takes 51 seconds 
+still need around 830.20 mins to finish this session
+epo 39, test, loss=1.9800 acc=0.4708
+best epoch 38, best test acc=48.217
+This epoch takes 51 seconds 
+still need around 817.17 mins to finish this session
+epo 40, test, loss=2.0697 acc=0.4548
+best epoch 38, best test acc=48.217
+This epoch takes 53 seconds 
+still need around 848.87 mins to finish this session
+epo 41, test, loss=2.0676 acc=0.4530
+best epoch 38, best test acc=48.217
+This epoch takes 52 seconds 
+still need around 840.95 mins to finish this session
+epo 42, test, loss=2.4873 acc=0.3875
+best epoch 38, best test acc=48.217
+This epoch takes 51 seconds 
+still need around 819.14 mins to finish this session
+epo 43, test, loss=2.0726 acc=0.4478
+best epoch 38, best test acc=48.217
+This epoch takes 52 seconds 
+still need around 841.74 mins to finish this session
+epo 44, test, loss=2.0613 acc=0.4557
+best epoch 38, best test acc=48.217
+This epoch takes 53 seconds 
+still need around 853.26 mins to finish this session
+epo 45, test, loss=2.1628 acc=0.4257
+best epoch 38, best test acc=48.217
+This epoch takes 51 seconds 
+still need around 818.90 mins to finish this session
+epo 46, test, loss=1.9280 acc=0.4812
+best epoch 38, best test acc=48.217
+This epoch takes 50 seconds 
+still need around 805.84 mins to finish this session
+epo 47, test, loss=1.9915 acc=0.4742
+best epoch 38, best test acc=48.217
+This epoch takes 50 seconds 
+still need around 809.85 mins to finish this session
+epo 48, test, loss=1.8404 acc=0.5113
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 48, best test acc=51.133
+This epoch takes 52 seconds 
+still need around 829.44 mins to finish this session
+epo 49, test, loss=1.9785 acc=0.4675
+best epoch 48, best test acc=51.133
+This epoch takes 52 seconds 
+still need around 832.09 mins to finish this session
+epo 50, test, loss=1.9406 acc=0.4770
+best epoch 48, best test acc=51.133
+This epoch takes 51 seconds 
+still need around 811.62 mins to finish this session
+epo 51, test, loss=2.0555 acc=0.4502
+best epoch 48, best test acc=51.133
+This epoch takes 52 seconds 
+still need around 831.70 mins to finish this session
+epo 52, test, loss=1.9976 acc=0.4737
+best epoch 48, best test acc=51.133
+This epoch takes 53 seconds 
+still need around 847.61 mins to finish this session
+epo 53, test, loss=1.9364 acc=0.4772
+best epoch 48, best test acc=51.133
+This epoch takes 51 seconds 
+still need around 818.51 mins to finish this session
+epo 54, test, loss=2.0663 acc=0.4512
+best epoch 48, best test acc=51.133
+This epoch takes 51 seconds 
+still need around 815.51 mins to finish this session
+epo 55, test, loss=1.9629 acc=0.4763
+best epoch 48, best test acc=51.133
+This epoch takes 51 seconds 
+still need around 804.65 mins to finish this session
+epo 56, test, loss=2.1675 acc=0.4238
+best epoch 48, best test acc=51.133
+This epoch takes 51 seconds 
+still need around 806.30 mins to finish this session
+epo 57, test, loss=2.0430 acc=0.4590
+best epoch 48, best test acc=51.133
+This epoch takes 50 seconds 
+still need around 796.73 mins to finish this session
+epo 58, test, loss=2.1179 acc=0.4485
+best epoch 48, best test acc=51.133
+This epoch takes 50 seconds 
+still need around 790.24 mins to finish this session
+epo 59, test, loss=1.9987 acc=0.4692
+best epoch 48, best test acc=51.133
+This epoch takes 49 seconds 
+still need around 773.24 mins to finish this session
+epo 60, test, loss=1.7921 acc=0.5182
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 796.54 mins to finish this session
+epo 61, test, loss=1.9848 acc=0.4807
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 810.85 mins to finish this session
+epo 62, test, loss=2.0072 acc=0.4665
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 771.28 mins to finish this session
+epo 63, test, loss=1.9256 acc=0.4837
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 771.33 mins to finish this session
+epo 64, test, loss=1.9720 acc=0.4810
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 785.82 mins to finish this session
+epo 65, test, loss=2.0640 acc=0.4658
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 796.15 mins to finish this session
+epo 66, test, loss=1.8795 acc=0.4972
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 770.54 mins to finish this session
+epo 67, test, loss=1.9103 acc=0.4922
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 785.49 mins to finish this session
+epo 68, test, loss=1.8361 acc=0.5020
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 771.67 mins to finish this session
+epo 69, test, loss=1.9498 acc=0.4768
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 776.31 mins to finish this session
+epo 70, test, loss=1.8758 acc=0.4968
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 801.78 mins to finish this session
+epo 71, test, loss=1.9401 acc=0.4870
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 780.46 mins to finish this session
+epo 72, test, loss=1.8925 acc=0.4853
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 770.74 mins to finish this session
+epo 73, test, loss=1.9009 acc=0.4940
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 798.98 mins to finish this session
+epo 74, test, loss=1.9129 acc=0.4863
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 759.02 mins to finish this session
+epo 75, test, loss=1.8905 acc=0.4875
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 759.37 mins to finish this session
+epo 76, test, loss=1.9658 acc=0.4787
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 780.37 mins to finish this session
+epo 77, test, loss=1.8327 acc=0.5045
+best epoch 60, best test acc=51.817
+This epoch takes 48 seconds 
+still need around 738.60 mins to finish this session
+epo 78, test, loss=1.9375 acc=0.4818
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 757.00 mins to finish this session
+epo 79, test, loss=1.9792 acc=0.4765
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 774.35 mins to finish this session
+epo 80, test, loss=1.8953 acc=0.4882
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 767.78 mins to finish this session
+epo 81, test, loss=1.8799 acc=0.5037
+best epoch 60, best test acc=51.817
+This epoch takes 48 seconds 
+still need around 745.11 mins to finish this session
+epo 82, test, loss=1.8987 acc=0.4797
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 773.26 mins to finish this session
+epo 83, test, loss=2.0405 acc=0.4653
+best epoch 60, best test acc=51.817
+This epoch takes 47 seconds 
+still need around 730.23 mins to finish this session
+epo 84, test, loss=1.8294 acc=0.5058
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 748.97 mins to finish this session
+epo 85, test, loss=2.0628 acc=0.4590
+best epoch 60, best test acc=51.817
+This epoch takes 48 seconds 
+still need around 741.06 mins to finish this session
+epo 86, test, loss=2.2524 acc=0.4178
+best epoch 60, best test acc=51.817
+This epoch takes 50 seconds 
+still need around 773.99 mins to finish this session
+epo 87, test, loss=1.9417 acc=0.4810
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 760.29 mins to finish this session
+epo 88, test, loss=1.8884 acc=0.4917
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 778.73 mins to finish this session
+epo 89, test, loss=1.9712 acc=0.4770
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 783.02 mins to finish this session
+epo 90, test, loss=1.8581 acc=0.4988
+best epoch 60, best test acc=51.817
+This epoch takes 49 seconds 
+still need around 754.84 mins to finish this session
+epo 91, test, loss=2.0014 acc=0.4695
+best epoch 60, best test acc=51.817
+This epoch takes 52 seconds 
+still need around 795.97 mins to finish this session
+epo 92, test, loss=1.8001 acc=0.5165
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 781.48 mins to finish this session
+epo 93, test, loss=1.9381 acc=0.4760
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 777.42 mins to finish this session
+epo 94, test, loss=1.8994 acc=0.5032
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 783.26 mins to finish this session
+epo 95, test, loss=1.9644 acc=0.4763
+best epoch 60, best test acc=51.817
+This epoch takes 51 seconds 
+still need around 780.68 mins to finish this session
+epo 96, test, loss=1.7695 acc=0.5223
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 96, best test acc=52.233
+This epoch takes 50 seconds 
+still need around 764.04 mins to finish this session
+epo 97, test, loss=1.8984 acc=0.5007
+best epoch 96, best test acc=52.233
+This epoch takes 50 seconds 
+still need around 753.74 mins to finish this session
+epo 98, test, loss=1.8108 acc=0.5067
+best epoch 96, best test acc=52.233
+This epoch takes 50 seconds 
+still need around 756.06 mins to finish this session
+epo 99, test, loss=2.0636 acc=0.4497
+best epoch 96, best test acc=52.233
+This epoch takes 49 seconds 
+still need around 749.09 mins to finish this session
+epo 100, test, loss=1.8926 acc=0.4992
+best epoch 96, best test acc=52.233
+This epoch takes 52 seconds 
+still need around 782.74 mins to finish this session
+epo 101, test, loss=2.2365 acc=0.4227
+best epoch 96, best test acc=52.233
+This epoch takes 51 seconds 
+still need around 765.61 mins to finish this session
+epo 102, test, loss=1.8462 acc=0.5047
+best epoch 96, best test acc=52.233
+This epoch takes 49 seconds 
+still need around 745.19 mins to finish this session
+epo 103, test, loss=1.9041 acc=0.4872
+best epoch 96, best test acc=52.233
+This epoch takes 52 seconds 
+still need around 783.76 mins to finish this session
+epo 104, test, loss=1.7763 acc=0.5218
+best epoch 96, best test acc=52.233
+This epoch takes 52 seconds 
+still need around 777.54 mins to finish this session
+epo 105, test, loss=1.9690 acc=0.4783
+best epoch 96, best test acc=52.233
+This epoch takes 48 seconds 
+still need around 727.40 mins to finish this session
+epo 106, test, loss=1.8530 acc=0.5008
+best epoch 96, best test acc=52.233
+This epoch takes 51 seconds 
+still need around 770.94 mins to finish this session
+epo 107, test, loss=1.9819 acc=0.4728
+best epoch 96, best test acc=52.233
+This epoch takes 49 seconds 
+still need around 740.78 mins to finish this session
+epo 108, test, loss=2.0194 acc=0.4670
+best epoch 96, best test acc=52.233
+This epoch takes 49 seconds 
+still need around 740.12 mins to finish this session
+epo 109, test, loss=1.8714 acc=0.4983
+best epoch 96, best test acc=52.233
+This epoch takes 50 seconds 
+still need around 753.35 mins to finish this session
+epo 110, test, loss=1.8079 acc=0.5120
+best epoch 96, best test acc=52.233
+This epoch takes 50 seconds 
+still need around 749.89 mins to finish this session
+epo 111, test, loss=1.8433 acc=0.5065
+best epoch 96, best test acc=52.233
+This epoch takes 48 seconds 
+still need around 714.74 mins to finish this session
+epo 112, test, loss=1.8844 acc=0.4982
+best epoch 96, best test acc=52.233
+This epoch takes 51 seconds 
+still need around 755.70 mins to finish this session
+epo 113, test, loss=1.9105 acc=0.4927
+best epoch 96, best test acc=52.233
+This epoch takes 49 seconds 
+still need around 731.25 mins to finish this session
+epo 114, test, loss=2.0550 acc=0.4610
+best epoch 96, best test acc=52.233
+This epoch takes 50 seconds 
+still need around 750.80 mins to finish this session
+epo 115, test, loss=1.8229 acc=0.5082
+best epoch 96, best test acc=52.233
+This epoch takes 50 seconds 
+still need around 742.50 mins to finish this session
+epo 116, test, loss=1.8667 acc=0.5050
+best epoch 96, best test acc=52.233
+This epoch takes 52 seconds 
+still need around 773.82 mins to finish this session
+epo 117, test, loss=1.8341 acc=0.5133
+best epoch 96, best test acc=52.233
+This epoch takes 51 seconds 
+still need around 763.53 mins to finish this session
+epo 118, test, loss=1.9070 acc=0.4878
+best epoch 96, best test acc=52.233
+This epoch takes 51 seconds 
+still need around 761.07 mins to finish this session
+epo 119, test, loss=1.9732 acc=0.4855
+best epoch 96, best test acc=52.233
+This epoch takes 53 seconds 
+still need around 787.87 mins to finish this session
+epo 120, test, loss=2.4044 acc=0.3920
+best epoch 96, best test acc=52.233
+This epoch takes 50 seconds 
+still need around 735.86 mins to finish this session
+epo 121, test, loss=1.8202 acc=0.5167
+best epoch 96, best test acc=52.233
+This epoch takes 52 seconds 
+still need around 771.51 mins to finish this session
+epo 122, test, loss=1.9363 acc=0.4893
+best epoch 96, best test acc=52.233
+This epoch takes 50 seconds 
+still need around 744.50 mins to finish this session
+epo 123, test, loss=2.0884 acc=0.4500
+best epoch 96, best test acc=52.233
+This epoch takes 52 seconds 
+still need around 765.73 mins to finish this session
+epo 124, test, loss=1.9449 acc=0.4878
+best epoch 96, best test acc=52.233
+This epoch takes 51 seconds 
+still need around 758.63 mins to finish this session
+epo 125, test, loss=1.8388 acc=0.5117
+best epoch 96, best test acc=52.233
+This epoch takes 52 seconds 
+still need around 766.65 mins to finish this session
+epo 126, test, loss=1.8183 acc=0.5050
+best epoch 96, best test acc=52.233
+This epoch takes 54 seconds 
+still need around 792.85 mins to finish this session
+epo 127, test, loss=1.8916 acc=0.5022
+best epoch 96, best test acc=52.233
+This epoch takes 52 seconds 
+still need around 757.74 mins to finish this session
+epo 128, test, loss=1.9248 acc=0.4852
+best epoch 96, best test acc=52.233
+This epoch takes 51 seconds 
+still need around 752.49 mins to finish this session
+epo 129, test, loss=2.3671 acc=0.4027
+best epoch 96, best test acc=52.233
+This epoch takes 53 seconds 
+still need around 777.76 mins to finish this session
+epo 130, test, loss=1.8424 acc=0.5035
+best epoch 96, best test acc=52.233
+This epoch takes 53 seconds 
+still need around 773.64 mins to finish this session
+epo 131, test, loss=1.7634 acc=0.5243
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 131, best test acc=52.433
+This epoch takes 50 seconds 
+still need around 730.10 mins to finish this session
+epo 132, test, loss=1.9679 acc=0.4755
+best epoch 131, best test acc=52.433
+This epoch takes 52 seconds 
+still need around 757.89 mins to finish this session
+epo 133, test, loss=1.7838 acc=0.5195
+best epoch 131, best test acc=52.433
+This epoch takes 52 seconds 
+still need around 758.30 mins to finish this session
+epo 134, test, loss=2.0129 acc=0.4660
+best epoch 131, best test acc=52.433
+This epoch takes 52 seconds 
+still need around 751.53 mins to finish this session
+epo 135, test, loss=1.9256 acc=0.4895
+best epoch 131, best test acc=52.433
+This epoch takes 50 seconds 
+still need around 732.59 mins to finish this session
+epo 136, test, loss=1.8029 acc=0.5222
+best epoch 131, best test acc=52.433
+This epoch takes 52 seconds 
+still need around 750.74 mins to finish this session
+epo 137, test, loss=1.9243 acc=0.4903
+best epoch 131, best test acc=52.433
+This epoch takes 51 seconds 
+still need around 746.58 mins to finish this session
+epo 138, test, loss=1.8436 acc=0.5145
+best epoch 131, best test acc=52.433
+This epoch takes 51 seconds 
+still need around 732.88 mins to finish this session
+epo 139, test, loss=1.8024 acc=0.5143
+best epoch 131, best test acc=52.433
+This epoch takes 52 seconds 
+still need around 749.58 mins to finish this session
+epo 140, test, loss=1.8768 acc=0.5015
+best epoch 131, best test acc=52.433
+This epoch takes 49 seconds 
+still need around 711.57 mins to finish this session
+epo 141, test, loss=1.8211 acc=0.5122
+best epoch 131, best test acc=52.433
+This epoch takes 50 seconds 
+still need around 726.44 mins to finish this session
+epo 142, test, loss=1.7760 acc=0.5255
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 142, best test acc=52.550
+This epoch takes 52 seconds 
+still need around 753.46 mins to finish this session
+epo 143, test, loss=1.8463 acc=0.5080
+best epoch 142, best test acc=52.550
+This epoch takes 50 seconds 
+still need around 727.05 mins to finish this session
+epo 144, test, loss=1.9259 acc=0.4797
+best epoch 142, best test acc=52.550
+This epoch takes 51 seconds 
+still need around 730.54 mins to finish this session
+epo 145, test, loss=1.9219 acc=0.4882
+best epoch 142, best test acc=52.550
+This epoch takes 51 seconds 
+still need around 732.66 mins to finish this session
+epo 146, test, loss=1.7587 acc=0.5225
+best epoch 142, best test acc=52.550
+This epoch takes 50 seconds 
+still need around 719.03 mins to finish this session
+epo 147, test, loss=1.7703 acc=0.5292
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 147, best test acc=52.917
+This epoch takes 50 seconds 
+still need around 711.32 mins to finish this session
+epo 148, test, loss=1.7769 acc=0.5300
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 148, best test acc=53.000
+This epoch takes 52 seconds 
+still need around 745.86 mins to finish this session
+epo 149, test, loss=1.7416 acc=0.5380
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 149, best test acc=53.800
+This epoch takes 50 seconds 
+still need around 722.89 mins to finish this session
+epo 150, test, loss=1.8415 acc=0.5052
+best epoch 149, best test acc=53.800
+This epoch takes 73 seconds 
+still need around 1037.72 mins to finish this session
+epo 151, test, loss=1.8309 acc=0.5087
+best epoch 149, best test acc=53.800
+This epoch takes 73 seconds 
+still need around 1044.48 mins to finish this session
+epo 152, test, loss=1.8252 acc=0.5087
+best epoch 149, best test acc=53.800
+This epoch takes 67 seconds 
+still need around 954.27 mins to finish this session
+epo 153, test, loss=1.7606 acc=0.5325
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 1029.25 mins to finish this session
+epo 154, test, loss=1.7228 acc=0.5365
+best epoch 149, best test acc=53.800
+This epoch takes 68 seconds 
+still need around 969.76 mins to finish this session
+epo 155, test, loss=1.9857 acc=0.4790
+best epoch 149, best test acc=53.800
+This epoch takes 74 seconds 
+still need around 1051.34 mins to finish this session
+epo 156, test, loss=1.7756 acc=0.5235
+best epoch 149, best test acc=53.800
+This epoch takes 71 seconds 
+still need around 1001.86 mins to finish this session
+epo 157, test, loss=1.8589 acc=0.5070
+best epoch 149, best test acc=53.800
+This epoch takes 73 seconds 
+still need around 1026.91 mins to finish this session
+epo 158, test, loss=2.1598 acc=0.4422
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 1024.27 mins to finish this session
+epo 159, test, loss=1.7953 acc=0.5180
+best epoch 149, best test acc=53.800
+This epoch takes 73 seconds 
+still need around 1025.30 mins to finish this session
+epo 160, test, loss=1.8259 acc=0.5163
+best epoch 149, best test acc=53.800
+This epoch takes 73 seconds 
+still need around 1034.31 mins to finish this session
+epo 161, test, loss=1.8879 acc=0.4883
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 1015.67 mins to finish this session
+epo 162, test, loss=1.8643 acc=0.5003
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 1017.14 mins to finish this session
+epo 163, test, loss=1.7719 acc=0.5183
+best epoch 149, best test acc=53.800
+This epoch takes 71 seconds 
+still need around 998.51 mins to finish this session
+epo 164, test, loss=1.7776 acc=0.5163
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 1005.83 mins to finish this session
+epo 165, test, loss=1.8317 acc=0.5120
+best epoch 149, best test acc=53.800
+This epoch takes 73 seconds 
+still need around 1018.97 mins to finish this session
+epo 166, test, loss=2.2334 acc=0.4335
+best epoch 149, best test acc=53.800
+This epoch takes 71 seconds 
+still need around 999.99 mins to finish this session
+epo 167, test, loss=1.7082 acc=0.5380
+best epoch 149, best test acc=53.800
+This epoch takes 71 seconds 
+still need around 990.95 mins to finish this session
+epo 168, test, loss=1.8664 acc=0.5010
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 1007.00 mins to finish this session
+epo 169, test, loss=1.7991 acc=0.5197
+best epoch 149, best test acc=53.800
+This epoch takes 71 seconds 
+still need around 995.47 mins to finish this session
+epo 170, test, loss=1.7352 acc=0.5342
+best epoch 149, best test acc=53.800
+This epoch takes 71 seconds 
+still need around 990.48 mins to finish this session
+epo 171, test, loss=1.7960 acc=0.5230
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 995.41 mins to finish this session
+epo 172, test, loss=1.7606 acc=0.5330
+best epoch 149, best test acc=53.800
+This epoch takes 73 seconds 
+still need around 1009.94 mins to finish this session
+epo 173, test, loss=1.8101 acc=0.5177
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 1000.38 mins to finish this session
+epo 174, test, loss=1.8234 acc=0.5125
+best epoch 149, best test acc=53.800
+This epoch takes 71 seconds 
+still need around 978.50 mins to finish this session
+epo 175, test, loss=1.8573 acc=0.5050
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 1001.64 mins to finish this session
+epo 176, test, loss=1.7940 acc=0.5233
+best epoch 149, best test acc=53.800
+This epoch takes 73 seconds 
+still need around 1003.47 mins to finish this session
+epo 177, test, loss=1.7294 acc=0.5328
+best epoch 149, best test acc=53.800
+This epoch takes 71 seconds 
+still need around 979.17 mins to finish this session
+epo 178, test, loss=1.9373 acc=0.4888
+best epoch 149, best test acc=53.800
+This epoch takes 71 seconds 
+still need around 983.46 mins to finish this session
+epo 179, test, loss=2.0490 acc=0.4697
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 987.33 mins to finish this session
+epo 180, test, loss=1.8158 acc=0.5210
+best epoch 149, best test acc=53.800
+This epoch takes 72 seconds 
+still need around 993.14 mins to finish this session
+epo 181, test, loss=1.7031 acc=0.5460
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 988.42 mins to finish this session
+epo 182, test, loss=1.9216 acc=0.4917
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 979.73 mins to finish this session
+epo 183, test, loss=1.7156 acc=0.5362
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 985.12 mins to finish this session
+epo 184, test, loss=1.7756 acc=0.5252
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 978.66 mins to finish this session
+epo 185, test, loss=1.8689 acc=0.5040
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 967.70 mins to finish this session
+epo 186, test, loss=1.7656 acc=0.5227
+best epoch 181, best test acc=54.600
+This epoch takes 73 seconds 
+still need around 994.21 mins to finish this session
+epo 187, test, loss=1.8094 acc=0.5178
+best epoch 181, best test acc=54.600
+This epoch takes 73 seconds 
+still need around 990.78 mins to finish this session
+epo 188, test, loss=1.8190 acc=0.5232
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 968.99 mins to finish this session
+epo 189, test, loss=1.7882 acc=0.5175
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 964.23 mins to finish this session
+epo 190, test, loss=1.8193 acc=0.5105
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 967.51 mins to finish this session
+epo 191, test, loss=1.9062 acc=0.4993
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 972.83 mins to finish this session
+epo 192, test, loss=1.7207 acc=0.5345
+best epoch 181, best test acc=54.600
+This epoch takes 70 seconds 
+still need around 953.67 mins to finish this session
+epo 193, test, loss=1.8066 acc=0.5110
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 981.46 mins to finish this session
+epo 194, test, loss=1.8115 acc=0.5152
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 976.31 mins to finish this session
+epo 195, test, loss=1.9453 acc=0.4932
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 965.73 mins to finish this session
+epo 196, test, loss=1.7426 acc=0.5317
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 967.61 mins to finish this session
+epo 197, test, loss=1.8307 acc=0.5142
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 963.95 mins to finish this session
+epo 198, test, loss=1.8691 acc=0.4985
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 963.91 mins to finish this session
+epo 199, test, loss=1.7852 acc=0.5268
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 953.47 mins to finish this session
+epo 200, test, loss=1.8166 acc=0.5163
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 969.37 mins to finish this session
+epo 201, test, loss=1.8324 acc=0.5092
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 955.07 mins to finish this session
+epo 202, test, loss=1.7403 acc=0.5347
+best epoch 181, best test acc=54.600
+This epoch takes 70 seconds 
+still need around 943.27 mins to finish this session
+epo 203, test, loss=1.9627 acc=0.4748
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 951.66 mins to finish this session
+epo 204, test, loss=1.6710 acc=0.5457
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 949.59 mins to finish this session
+epo 205, test, loss=1.7452 acc=0.5283
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 943.31 mins to finish this session
+epo 206, test, loss=1.9247 acc=0.4900
+best epoch 181, best test acc=54.600
+This epoch takes 71 seconds 
+still need around 948.60 mins to finish this session
+epo 207, test, loss=1.9040 acc=0.4940
+best epoch 181, best test acc=54.600
+This epoch takes 72 seconds 
+still need around 957.07 mins to finish this session
+epo 208, test, loss=1.7985 acc=0.5110
+best epoch 181, best test acc=54.600
+This epoch takes 68 seconds 
+still need around 903.01 mins to finish this session
+epo 209, test, loss=1.7297 acc=0.5323
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 895.68 mins to finish this session
+epo 210, test, loss=1.7988 acc=0.5180
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 893.96 mins to finish this session
+epo 211, test, loss=1.7518 acc=0.5283
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 882.37 mins to finish this session
+epo 212, test, loss=1.8287 acc=0.5127
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 887.78 mins to finish this session
+epo 213, test, loss=1.7495 acc=0.5333
+best epoch 181, best test acc=54.600
+This epoch takes 68 seconds 
+still need around 892.12 mins to finish this session
+epo 214, test, loss=1.9253 acc=0.4827
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 887.27 mins to finish this session
+epo 215, test, loss=1.9803 acc=0.4745
+best epoch 181, best test acc=54.600
+This epoch takes 68 seconds 
+still need around 894.96 mins to finish this session
+epo 216, test, loss=1.6850 acc=0.5383
+best epoch 181, best test acc=54.600
+This epoch takes 68 seconds 
+still need around 889.66 mins to finish this session
+epo 217, test, loss=1.7144 acc=0.5365
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 874.54 mins to finish this session
+epo 218, test, loss=1.8123 acc=0.5207
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 884.88 mins to finish this session
+epo 219, test, loss=1.8101 acc=0.5105
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 875.34 mins to finish this session
+epo 220, test, loss=1.7638 acc=0.5263
+best epoch 181, best test acc=54.600
+This epoch takes 68 seconds 
+still need around 892.14 mins to finish this session
+epo 221, test, loss=1.9992 acc=0.4657
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 879.53 mins to finish this session
+epo 222, test, loss=1.6990 acc=0.5410
+best epoch 181, best test acc=54.600
+This epoch takes 68 seconds 
+still need around 883.30 mins to finish this session
+epo 223, test, loss=1.8441 acc=0.5043
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 876.56 mins to finish this session
+epo 224, test, loss=1.8878 acc=0.4957
+best epoch 181, best test acc=54.600
+This epoch takes 66 seconds 
+still need around 862.93 mins to finish this session
+epo 225, test, loss=1.7509 acc=0.5305
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 875.81 mins to finish this session
+epo 226, test, loss=1.7514 acc=0.5348
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 874.30 mins to finish this session
+epo 227, test, loss=1.7996 acc=0.5187
+best epoch 181, best test acc=54.600
+This epoch takes 67 seconds 
+still need around 871.43 mins to finish this session
+epo 228, test, loss=1.6843 acc=0.5470
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 228, best test acc=54.700
+This epoch takes 67 seconds 
+still need around 871.42 mins to finish this session
+epo 229, test, loss=1.7549 acc=0.5305
+best epoch 228, best test acc=54.700
+This epoch takes 67 seconds 
+still need around 863.96 mins to finish this session
+epo 230, test, loss=1.7527 acc=0.5227
+best epoch 228, best test acc=54.700
+This epoch takes 67 seconds 
+still need around 864.04 mins to finish this session
+epo 231, test, loss=1.7091 acc=0.5397
+best epoch 228, best test acc=54.700
+This epoch takes 67 seconds 
+still need around 862.64 mins to finish this session
+epo 232, test, loss=1.7238 acc=0.5352
+best epoch 228, best test acc=54.700
+This epoch takes 66 seconds 
+still need around 855.77 mins to finish this session
+epo 233, test, loss=1.7817 acc=0.5297
+best epoch 228, best test acc=54.700
+This epoch takes 66 seconds 
+still need around 852.70 mins to finish this session
+epo 234, test, loss=1.6758 acc=0.5478
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 234, best test acc=54.783
+This epoch takes 67 seconds 
+still need around 863.55 mins to finish this session
+epo 235, test, loss=1.7963 acc=0.5202
+best epoch 234, best test acc=54.783
+This epoch takes 67 seconds 
+still need around 860.19 mins to finish this session
+epo 236, test, loss=1.7530 acc=0.5337
+best epoch 234, best test acc=54.783
+This epoch takes 68 seconds 
+still need around 868.92 mins to finish this session
+epo 237, test, loss=1.7450 acc=0.5303
+best epoch 234, best test acc=54.783
+This epoch takes 67 seconds 
+still need around 861.92 mins to finish this session
+epo 238, test, loss=1.8186 acc=0.5092
+best epoch 234, best test acc=54.783
+This epoch takes 67 seconds 
+still need around 855.63 mins to finish this session
+epo 239, test, loss=1.9437 acc=0.4877
+best epoch 234, best test acc=54.783
+This epoch takes 66 seconds 
+still need around 841.37 mins to finish this session
+epo 240, test, loss=1.7189 acc=0.5257
+best epoch 234, best test acc=54.783
+This epoch takes 68 seconds 
+still need around 865.28 mins to finish this session
+epo 241, test, loss=1.7769 acc=0.5233
+best epoch 234, best test acc=54.783
+This epoch takes 67 seconds 
+still need around 847.80 mins to finish this session
+epo 242, test, loss=1.7081 acc=0.5377
+best epoch 234, best test acc=54.783
+This epoch takes 67 seconds 
+still need around 855.82 mins to finish this session
+epo 243, test, loss=1.6948 acc=0.5320
+best epoch 234, best test acc=54.783
+This epoch takes 68 seconds 
+still need around 860.88 mins to finish this session
+epo 244, test, loss=1.7170 acc=0.5332
+best epoch 234, best test acc=54.783
+This epoch takes 68 seconds 
+still need around 857.43 mins to finish this session
+epo 245, test, loss=1.6731 acc=0.5527
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 245, best test acc=55.267
+This epoch takes 67 seconds 
+still need around 843.19 mins to finish this session
+epo 246, test, loss=2.0163 acc=0.4663
+best epoch 245, best test acc=55.267
+This epoch takes 67 seconds 
+still need around 848.11 mins to finish this session
+epo 247, test, loss=1.7391 acc=0.5350
+best epoch 245, best test acc=55.267
+This epoch takes 67 seconds 
+still need around 848.45 mins to finish this session
+epo 248, test, loss=1.8097 acc=0.5115
+best epoch 245, best test acc=55.267
+This epoch takes 67 seconds 
+still need around 850.66 mins to finish this session
+epo 249, test, loss=1.7716 acc=0.5232
+best epoch 245, best test acc=55.267
+This epoch takes 67 seconds 
+still need around 846.99 mins to finish this session
+epo 250, test, loss=1.6779 acc=0.5500
+best epoch 245, best test acc=55.267
+This epoch takes 67 seconds 
+still need around 843.20 mins to finish this session
+epo 251, test, loss=1.7002 acc=0.5423
+best epoch 245, best test acc=55.267
+This epoch takes 68 seconds 
+still need around 853.51 mins to finish this session
+epo 252, test, loss=1.7341 acc=0.5307
+best epoch 245, best test acc=55.267
+This epoch takes 67 seconds 
+still need around 846.52 mins to finish this session
+epo 253, test, loss=1.6268 acc=0.5548
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 843.28 mins to finish this session
+epo 254, test, loss=1.7217 acc=0.5365
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 835.64 mins to finish this session
+epo 255, test, loss=1.8212 acc=0.5237
+best epoch 253, best test acc=55.483
+This epoch takes 68 seconds 
+still need around 845.14 mins to finish this session
+epo 256, test, loss=1.6686 acc=0.5462
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 841.84 mins to finish this session
+epo 257, test, loss=1.6685 acc=0.5497
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 834.66 mins to finish this session
+epo 258, test, loss=1.8839 acc=0.4935
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 838.40 mins to finish this session
+epo 259, test, loss=1.8213 acc=0.5098
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 835.87 mins to finish this session
+epo 260, test, loss=1.7450 acc=0.5265
+best epoch 253, best test acc=55.483
+This epoch takes 68 seconds 
+still need around 840.99 mins to finish this session
+epo 261, test, loss=1.7651 acc=0.5168
+best epoch 253, best test acc=55.483
+This epoch takes 68 seconds 
+still need around 838.03 mins to finish this session
+epo 262, test, loss=1.7655 acc=0.5267
+best epoch 253, best test acc=55.483
+This epoch takes 68 seconds 
+still need around 838.19 mins to finish this session
+epo 263, test, loss=1.7228 acc=0.5398
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 833.96 mins to finish this session
+epo 264, test, loss=1.7250 acc=0.5397
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 833.19 mins to finish this session
+epo 265, test, loss=1.6742 acc=0.5465
+best epoch 253, best test acc=55.483
+This epoch takes 66 seconds 
+still need around 818.94 mins to finish this session
+epo 266, test, loss=1.6875 acc=0.5493
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 826.08 mins to finish this session
+epo 267, test, loss=1.7755 acc=0.5292
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 829.19 mins to finish this session
+epo 268, test, loss=1.6909 acc=0.5432
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 821.19 mins to finish this session
+epo 269, test, loss=1.7595 acc=0.5293
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 824.63 mins to finish this session
+epo 270, test, loss=1.7259 acc=0.5312
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 819.93 mins to finish this session
+epo 271, test, loss=1.6906 acc=0.5417
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 821.16 mins to finish this session
+epo 272, test, loss=1.7836 acc=0.5182
+best epoch 253, best test acc=55.483
+This epoch takes 65 seconds 
+still need around 793.29 mins to finish this session
+epo 273, test, loss=1.6973 acc=0.5430
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 821.89 mins to finish this session
+epo 274, test, loss=1.8765 acc=0.4993
+best epoch 253, best test acc=55.483
+This epoch takes 68 seconds 
+still need around 827.60 mins to finish this session
+epo 275, test, loss=1.7653 acc=0.5180
+best epoch 253, best test acc=55.483
+This epoch takes 67 seconds 
+still need around 820.08 mins to finish this session
+epo 276, test, loss=1.6873 acc=0.5392
+best epoch 253, best test acc=55.483
+This epoch takes 68 seconds 
+still need around 830.75 mins to finish this session
+epo 277, test, loss=1.7099 acc=0.5350
+best epoch 253, best test acc=55.483
+This epoch takes 68 seconds 
+still need around 829.28 mins to finish this session
+epo 278, test, loss=1.6254 acc=0.5572
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 278, best test acc=55.717
+This epoch takes 68 seconds 
+still need around 826.00 mins to finish this session
+epo 279, test, loss=1.7419 acc=0.5285
+best epoch 278, best test acc=55.717
+This epoch takes 68 seconds 
+still need around 825.06 mins to finish this session
+epo 280, test, loss=1.7009 acc=0.5363
+best epoch 278, best test acc=55.717
+This epoch takes 68 seconds 
+still need around 827.91 mins to finish this session
+epo 281, test, loss=1.6654 acc=0.5448
+best epoch 278, best test acc=55.717
+This epoch takes 69 seconds 
+still need around 829.40 mins to finish this session
+epo 282, test, loss=1.7242 acc=0.5328
+best epoch 278, best test acc=55.717
+This epoch takes 69 seconds 
+still need around 828.28 mins to finish this session
+epo 283, test, loss=1.8662 acc=0.5068
+best epoch 278, best test acc=55.717
+This epoch takes 68 seconds 
+still need around 815.56 mins to finish this session
+epo 284, test, loss=1.7275 acc=0.5377
+best epoch 278, best test acc=55.717
+This epoch takes 69 seconds 
+still need around 825.05 mins to finish this session
+epo 285, test, loss=1.6417 acc=0.5523
+best epoch 278, best test acc=55.717
+This epoch takes 68 seconds 
+still need around 821.08 mins to finish this session
+epo 286, test, loss=1.7828 acc=0.5230
+best epoch 278, best test acc=55.717
+This epoch takes 69 seconds 
+still need around 825.74 mins to finish this session
+epo 287, test, loss=1.6646 acc=0.5553
+best epoch 278, best test acc=55.717
+This epoch takes 69 seconds 
+still need around 829.65 mins to finish this session
+epo 288, test, loss=1.6206 acc=0.5635
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 822.08 mins to finish this session
+epo 289, test, loss=1.7676 acc=0.5295
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 823.53 mins to finish this session
+epo 290, test, loss=1.8115 acc=0.5170
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 818.17 mins to finish this session
+epo 291, test, loss=1.7710 acc=0.5342
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 822.53 mins to finish this session
+epo 292, test, loss=1.7345 acc=0.5327
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 815.56 mins to finish this session
+epo 293, test, loss=1.7907 acc=0.5258
+best epoch 288, best test acc=56.350
+This epoch takes 70 seconds 
+still need around 828.91 mins to finish this session
+epo 294, test, loss=1.5947 acc=0.5618
+best epoch 288, best test acc=56.350
+This epoch takes 68 seconds 
+still need around 808.37 mins to finish this session
+epo 295, test, loss=1.6730 acc=0.5510
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 816.68 mins to finish this session
+epo 296, test, loss=1.8002 acc=0.5135
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 820.14 mins to finish this session
+epo 297, test, loss=1.8477 acc=0.5058
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 813.19 mins to finish this session
+epo 298, test, loss=1.7128 acc=0.5388
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 817.61 mins to finish this session
+epo 299, test, loss=1.7062 acc=0.5430
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 814.76 mins to finish this session
+epo 300, test, loss=1.7068 acc=0.5358
+best epoch 288, best test acc=56.350
+This epoch takes 70 seconds 
+still need around 818.35 mins to finish this session
+epo 301, test, loss=1.6512 acc=0.5598
+best epoch 288, best test acc=56.350
+This epoch takes 69 seconds 
+still need around 811.13 mins to finish this session
+epo 302, test, loss=1.6403 acc=0.5560
+best epoch 288, best test acc=56.350
+This epoch takes 70 seconds 
+still need around 816.15 mins to finish this session
+epo 303, test, loss=1.6453 acc=0.5673
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 303, best test acc=56.733
+This epoch takes 69 seconds 
+still need around 811.84 mins to finish this session
+epo 304, test, loss=1.6868 acc=0.5447
+best epoch 303, best test acc=56.733
+This epoch takes 69 seconds 
+still need around 810.75 mins to finish this session
+epo 305, test, loss=1.7414 acc=0.5297
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 815.65 mins to finish this session
+epo 306, test, loss=1.8296 acc=0.5128
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 811.74 mins to finish this session
+epo 307, test, loss=1.6108 acc=0.5662
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 811.56 mins to finish this session
+epo 308, test, loss=1.7463 acc=0.5325
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 809.73 mins to finish this session
+epo 309, test, loss=1.8779 acc=0.4990
+best epoch 303, best test acc=56.733
+This epoch takes 71 seconds 
+still need around 818.08 mins to finish this session
+epo 310, test, loss=1.6651 acc=0.5530
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 815.44 mins to finish this session
+epo 311, test, loss=1.8154 acc=0.5112
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 813.36 mins to finish this session
+epo 312, test, loss=1.6939 acc=0.5485
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 807.49 mins to finish this session
+epo 313, test, loss=1.7755 acc=0.5343
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 801.67 mins to finish this session
+epo 314, test, loss=1.6908 acc=0.5432
+best epoch 303, best test acc=56.733
+This epoch takes 69 seconds 
+still need around 799.93 mins to finish this session
+epo 315, test, loss=1.7674 acc=0.5298
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 801.55 mins to finish this session
+epo 316, test, loss=1.7580 acc=0.5305
+best epoch 303, best test acc=56.733
+This epoch takes 70 seconds 
+still need around 802.51 mins to finish this session
+epo 317, test, loss=1.5823 acc=0.5718
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 317, best test acc=57.183
+This epoch takes 69 seconds 
+still need around 786.74 mins to finish this session
+epo 318, test, loss=1.6483 acc=0.5570
+best epoch 317, best test acc=57.183
+This epoch takes 69 seconds 
+still need around 792.09 mins to finish this session
+epo 319, test, loss=1.7348 acc=0.5332
+best epoch 317, best test acc=57.183
+This epoch takes 69 seconds 
+still need around 788.79 mins to finish this session
+epo 320, test, loss=1.7008 acc=0.5440
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 779.79 mins to finish this session
+epo 321, test, loss=1.7044 acc=0.5460
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 779.07 mins to finish this session
+epo 322, test, loss=2.0222 acc=0.4792
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 778.20 mins to finish this session
+epo 323, test, loss=1.6784 acc=0.5503
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 774.50 mins to finish this session
+epo 324, test, loss=1.6627 acc=0.5617
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 771.88 mins to finish this session
+epo 325, test, loss=1.6867 acc=0.5527
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 762.62 mins to finish this session
+epo 326, test, loss=1.6379 acc=0.5563
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 762.65 mins to finish this session
+epo 327, test, loss=1.6528 acc=0.5597
+best epoch 317, best test acc=57.183
+This epoch takes 66 seconds 
+still need around 750.35 mins to finish this session
+epo 328, test, loss=1.6248 acc=0.5573
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 766.62 mins to finish this session
+epo 329, test, loss=1.6460 acc=0.5513
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 763.32 mins to finish this session
+epo 330, test, loss=1.6218 acc=0.5645
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 751.46 mins to finish this session
+epo 331, test, loss=1.6855 acc=0.5472
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 752.41 mins to finish this session
+epo 332, test, loss=1.7313 acc=0.5397
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 750.13 mins to finish this session
+epo 333, test, loss=1.7239 acc=0.5328
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 750.07 mins to finish this session
+epo 334, test, loss=1.6444 acc=0.5548
+best epoch 317, best test acc=57.183
+This epoch takes 66 seconds 
+still need around 743.06 mins to finish this session
+epo 335, test, loss=1.9872 acc=0.4872
+best epoch 317, best test acc=57.183
+This epoch takes 66 seconds 
+still need around 742.12 mins to finish this session
+epo 336, test, loss=1.7918 acc=0.5265
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 750.59 mins to finish this session
+epo 337, test, loss=1.6995 acc=0.5420
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 750.27 mins to finish this session
+epo 338, test, loss=1.7737 acc=0.5288
+best epoch 317, best test acc=57.183
+This epoch takes 66 seconds 
+still need around 732.31 mins to finish this session
+epo 339, test, loss=1.8146 acc=0.5237
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 752.74 mins to finish this session
+epo 340, test, loss=1.5939 acc=0.5643
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 745.54 mins to finish this session
+epo 341, test, loss=1.6651 acc=0.5447
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 740.30 mins to finish this session
+epo 342, test, loss=1.6472 acc=0.5548
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 738.28 mins to finish this session
+epo 343, test, loss=1.7604 acc=0.5342
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 745.80 mins to finish this session
+epo 344, test, loss=1.7637 acc=0.5280
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 740.69 mins to finish this session
+epo 345, test, loss=1.7275 acc=0.5325
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 734.18 mins to finish this session
+epo 346, test, loss=1.7201 acc=0.5440
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 737.38 mins to finish this session
+epo 347, test, loss=1.6896 acc=0.5408
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 743.21 mins to finish this session
+epo 348, test, loss=1.6587 acc=0.5478
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 734.17 mins to finish this session
+epo 349, test, loss=1.7609 acc=0.5292
+best epoch 317, best test acc=57.183
+This epoch takes 67 seconds 
+still need around 734.45 mins to finish this session
+epo 350, test, loss=1.6036 acc=0.5638
+best epoch 317, best test acc=57.183
+This epoch takes 68 seconds 
+still need around 737.74 mins to finish this session
+epo 351, test, loss=1.5774 acc=0.5715
+best epoch 317, best test acc=57.183
+This epoch takes 66 seconds 
+still need around 724.23 mins to finish this session
+epo 352, test, loss=1.5337 acc=0.5938
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 740.93 mins to finish this session
+epo 353, test, loss=1.5068 acc=0.5890
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 732.87 mins to finish this session
+epo 354, test, loss=1.5784 acc=0.5778
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 737.84 mins to finish this session
+epo 355, test, loss=1.7456 acc=0.5395
+best epoch 352, best test acc=59.383
+This epoch takes 66 seconds 
+still need around 719.45 mins to finish this session
+epo 356, test, loss=1.7647 acc=0.5317
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 738.21 mins to finish this session
+epo 357, test, loss=1.6022 acc=0.5680
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 727.66 mins to finish this session
+epo 358, test, loss=1.5896 acc=0.5627
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 721.71 mins to finish this session
+epo 359, test, loss=1.6733 acc=0.5515
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 720.88 mins to finish this session
+epo 360, test, loss=1.7569 acc=0.5262
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 733.41 mins to finish this session
+epo 361, test, loss=1.6792 acc=0.5460
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 730.80 mins to finish this session
+epo 362, test, loss=1.6142 acc=0.5625
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 728.09 mins to finish this session
+epo 363, test, loss=1.8638 acc=0.5117
+best epoch 352, best test acc=59.383
+This epoch takes 66 seconds 
+still need around 707.39 mins to finish this session
+epo 364, test, loss=1.7322 acc=0.5327
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 721.47 mins to finish this session
+epo 365, test, loss=1.5771 acc=0.5783
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 711.46 mins to finish this session
+epo 366, test, loss=1.7941 acc=0.5187
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 714.19 mins to finish this session
+epo 367, test, loss=1.5990 acc=0.5615
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 714.21 mins to finish this session
+epo 368, test, loss=1.5083 acc=0.5893
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 714.54 mins to finish this session
+epo 369, test, loss=1.5480 acc=0.5812
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 715.55 mins to finish this session
+epo 370, test, loss=1.6161 acc=0.5572
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 706.20 mins to finish this session
+epo 371, test, loss=1.6646 acc=0.5482
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 722.17 mins to finish this session
+epo 372, test, loss=1.5542 acc=0.5792
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 707.61 mins to finish this session
+epo 373, test, loss=1.7788 acc=0.5270
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 705.68 mins to finish this session
+epo 374, test, loss=1.7516 acc=0.5333
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 710.85 mins to finish this session
+epo 375, test, loss=1.6208 acc=0.5650
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 707.16 mins to finish this session
+epo 376, test, loss=1.6117 acc=0.5640
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 710.43 mins to finish this session
+epo 377, test, loss=1.5626 acc=0.5818
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 699.06 mins to finish this session
+epo 378, test, loss=1.6193 acc=0.5680
+best epoch 352, best test acc=59.383
+This epoch takes 66 seconds 
+still need around 684.36 mins to finish this session
+epo 379, test, loss=1.6303 acc=0.5587
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 700.68 mins to finish this session
+epo 380, test, loss=1.6349 acc=0.5638
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 701.86 mins to finish this session
+epo 381, test, loss=1.6895 acc=0.5480
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 700.61 mins to finish this session
+epo 382, test, loss=1.5646 acc=0.5748
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 699.67 mins to finish this session
+epo 383, test, loss=1.5769 acc=0.5742
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 697.86 mins to finish this session
+epo 384, test, loss=1.5734 acc=0.5655
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 698.25 mins to finish this session
+epo 385, test, loss=1.5781 acc=0.5737
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 687.52 mins to finish this session
+epo 386, test, loss=1.6326 acc=0.5688
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 686.26 mins to finish this session
+epo 387, test, loss=1.5720 acc=0.5742
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 691.09 mins to finish this session
+epo 388, test, loss=1.6235 acc=0.5658
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 689.62 mins to finish this session
+epo 389, test, loss=1.7856 acc=0.5245
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 697.04 mins to finish this session
+epo 390, test, loss=1.5340 acc=0.5813
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 686.76 mins to finish this session
+epo 391, test, loss=1.5307 acc=0.5862
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 686.26 mins to finish this session
+epo 392, test, loss=1.6548 acc=0.5538
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 691.05 mins to finish this session
+epo 393, test, loss=1.5561 acc=0.5792
+best epoch 352, best test acc=59.383
+This epoch takes 66 seconds 
+still need around 669.90 mins to finish this session
+epo 394, test, loss=1.5826 acc=0.5742
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 678.71 mins to finish this session
+epo 395, test, loss=1.5050 acc=0.5922
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 683.71 mins to finish this session
+epo 396, test, loss=1.5743 acc=0.5793
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 680.14 mins to finish this session
+epo 397, test, loss=1.5521 acc=0.5733
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 681.80 mins to finish this session
+epo 398, test, loss=1.5423 acc=0.5847
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 686.07 mins to finish this session
+epo 399, test, loss=1.5730 acc=0.5643
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 671.67 mins to finish this session
+epo 400, test, loss=1.5093 acc=0.5863
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 678.00 mins to finish this session
+epo 401, test, loss=1.8324 acc=0.5112
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 671.83 mins to finish this session
+epo 402, test, loss=1.5647 acc=0.5747
+best epoch 352, best test acc=59.383
+This epoch takes 66 seconds 
+still need around 660.57 mins to finish this session
+epo 403, test, loss=1.5551 acc=0.5750
+best epoch 352, best test acc=59.383
+This epoch takes 68 seconds 
+still need around 677.23 mins to finish this session
+epo 404, test, loss=1.6696 acc=0.5552
+best epoch 352, best test acc=59.383
+This epoch takes 67 seconds 
+still need around 674.30 mins to finish this session
+epo 405, test, loss=1.5058 acc=0.5955
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 405, best test acc=59.550
+This epoch takes 68 seconds 
+still need around 676.00 mins to finish this session
+epo 406, test, loss=1.6119 acc=0.5638
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 669.60 mins to finish this session
+epo 407, test, loss=1.5474 acc=0.5780
+best epoch 405, best test acc=59.550
+This epoch takes 68 seconds 
+still need around 675.33 mins to finish this session
+epo 408, test, loss=1.5274 acc=0.5793
+best epoch 405, best test acc=59.550
+This epoch takes 68 seconds 
+still need around 673.20 mins to finish this session
+epo 409, test, loss=1.5799 acc=0.5747
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 664.46 mins to finish this session
+epo 410, test, loss=1.5131 acc=0.5847
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 666.51 mins to finish this session
+epo 411, test, loss=1.6971 acc=0.5393
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 662.86 mins to finish this session
+epo 412, test, loss=1.5768 acc=0.5777
+best epoch 405, best test acc=59.550
+This epoch takes 68 seconds 
+still need around 671.16 mins to finish this session
+epo 413, test, loss=1.6497 acc=0.5667
+best epoch 405, best test acc=59.550
+This epoch takes 68 seconds 
+still need around 667.09 mins to finish this session
+epo 414, test, loss=1.7097 acc=0.5465
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 659.99 mins to finish this session
+epo 415, test, loss=1.5218 acc=0.5907
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 656.78 mins to finish this session
+epo 416, test, loss=1.7829 acc=0.5313
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 660.38 mins to finish this session
+epo 417, test, loss=1.5326 acc=0.5855
+best epoch 405, best test acc=59.550
+This epoch takes 66 seconds 
+still need around 647.02 mins to finish this session
+epo 418, test, loss=1.5526 acc=0.5788
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 655.86 mins to finish this session
+epo 419, test, loss=1.5476 acc=0.5790
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 650.18 mins to finish this session
+epo 420, test, loss=1.5344 acc=0.5857
+best epoch 405, best test acc=59.550
+This epoch takes 68 seconds 
+still need around 661.67 mins to finish this session
+epo 421, test, loss=1.6597 acc=0.5522
+best epoch 405, best test acc=59.550
+This epoch takes 68 seconds 
+still need around 659.91 mins to finish this session
+epo 422, test, loss=1.7250 acc=0.5428
+best epoch 405, best test acc=59.550
+This epoch takes 67 seconds 
+still need around 654.94 mins to finish this session
+epo 423, test, loss=1.5158 acc=0.5972
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 423, best test acc=59.717
+This epoch takes 67 seconds 
+still need around 645.92 mins to finish this session
+epo 424, test, loss=1.6370 acc=0.5628
+best epoch 423, best test acc=59.717
+This epoch takes 58 seconds 
+still need around 561.35 mins to finish this session
+epo 425, test, loss=1.5381 acc=0.5822
+best epoch 423, best test acc=59.717
+This epoch takes 57 seconds 
+still need around 551.79 mins to finish this session
+epo 426, test, loss=1.6054 acc=0.5720
+best epoch 423, best test acc=59.717
+This epoch takes 72 seconds 
+still need around 690.32 mins to finish this session
+epo 427, test, loss=1.7402 acc=0.5372
+best epoch 423, best test acc=59.717
+This epoch takes 74 seconds 
+still need around 713.57 mins to finish this session
+epo 428, test, loss=1.5557 acc=0.5743
+best epoch 423, best test acc=59.717
+This epoch takes 71 seconds 
+still need around 679.38 mins to finish this session
+epo 429, test, loss=1.4835 acc=0.5950
+best epoch 423, best test acc=59.717
+This epoch takes 71 seconds 
+still need around 676.60 mins to finish this session
+epo 430, test, loss=1.6986 acc=0.5527
+best epoch 423, best test acc=59.717
+This epoch takes 72 seconds 
+still need around 692.09 mins to finish this session
+epo 431, test, loss=1.4991 acc=0.5925
+best epoch 423, best test acc=59.717
+This epoch takes 71 seconds 
+still need around 676.64 mins to finish this session
+epo 432, test, loss=1.4745 acc=0.5990
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 432, best test acc=59.900
+This epoch takes 70 seconds 
+still need around 665.67 mins to finish this session
+epo 433, test, loss=1.5518 acc=0.5750
+best epoch 432, best test acc=59.900
+This epoch takes 71 seconds 
+still need around 677.52 mins to finish this session
+epo 434, test, loss=1.5431 acc=0.5775
+best epoch 432, best test acc=59.900
+This epoch takes 72 seconds 
+still need around 688.03 mins to finish this session
+epo 435, test, loss=1.5809 acc=0.5748
+best epoch 432, best test acc=59.900
+This epoch takes 72 seconds 
+still need around 678.77 mins to finish this session
+epo 436, test, loss=1.5279 acc=0.5927
+best epoch 432, best test acc=59.900
+This epoch takes 71 seconds 
+still need around 675.14 mins to finish this session
+epo 437, test, loss=1.6487 acc=0.5590
+best epoch 432, best test acc=59.900
+This epoch takes 73 seconds 
+still need around 686.19 mins to finish this session
+epo 438, test, loss=1.5675 acc=0.5832
+best epoch 432, best test acc=59.900
+This epoch takes 71 seconds 
+still need around 668.49 mins to finish this session
+epo 439, test, loss=1.5602 acc=0.5785
+best epoch 432, best test acc=59.900
+This epoch takes 70 seconds 
+still need around 663.19 mins to finish this session
+epo 440, test, loss=1.5065 acc=0.5910
+best epoch 432, best test acc=59.900
+This epoch takes 72 seconds 
+still need around 674.01 mins to finish this session
+epo 441, test, loss=1.5558 acc=0.5772
+best epoch 432, best test acc=59.900
+This epoch takes 72 seconds 
+still need around 674.26 mins to finish this session
+epo 442, test, loss=1.6112 acc=0.5712
+best epoch 432, best test acc=59.900
+This epoch takes 69 seconds 
+still need around 646.98 mins to finish this session
+epo 443, test, loss=1.5864 acc=0.5755
+best epoch 432, best test acc=59.900
+This epoch takes 71 seconds 
+still need around 666.50 mins to finish this session
+epo 444, test, loss=1.4892 acc=0.5948
+best epoch 432, best test acc=59.900
+This epoch takes 72 seconds 
+still need around 672.73 mins to finish this session
+epo 445, test, loss=1.7539 acc=0.5333
+best epoch 432, best test acc=59.900
+This epoch takes 70 seconds 
+still need around 651.48 mins to finish this session
+epo 446, test, loss=1.5741 acc=0.5755
+best epoch 432, best test acc=59.900
+This epoch takes 72 seconds 
+still need around 665.69 mins to finish this session
+epo 447, test, loss=1.5668 acc=0.5757
+best epoch 432, best test acc=59.900
+This epoch takes 72 seconds 
+still need around 669.33 mins to finish this session
+epo 448, test, loss=1.5437 acc=0.5825
+best epoch 432, best test acc=59.900
+This epoch takes 70 seconds 
+still need around 647.48 mins to finish this session
+epo 449, test, loss=1.5909 acc=0.5693
+best epoch 432, best test acc=59.900
+This epoch takes 71 seconds 
+still need around 655.84 mins to finish this session
+epo 450, test, loss=1.4105 acc=0.6135
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 450, best test acc=61.350
+This epoch takes 73 seconds 
+still need around 671.55 mins to finish this session
+epo 451, test, loss=1.5653 acc=0.5803
+best epoch 450, best test acc=61.350
+This epoch takes 69 seconds 
+still need around 637.94 mins to finish this session
+epo 452, test, loss=1.6516 acc=0.5633
+best epoch 450, best test acc=61.350
+This epoch takes 71 seconds 
+still need around 648.86 mins to finish this session
+epo 453, test, loss=1.4810 acc=0.5980
+best epoch 450, best test acc=61.350
+This epoch takes 73 seconds 
+still need around 672.26 mins to finish this session
+epo 454, test, loss=1.5440 acc=0.5878
+best epoch 450, best test acc=61.350
+This epoch takes 73 seconds 
+still need around 669.25 mins to finish this session
+epo 455, test, loss=1.5283 acc=0.5917
+best epoch 450, best test acc=61.350
+This epoch takes 73 seconds 
+still need around 664.09 mins to finish this session
+epo 456, test, loss=1.4943 acc=0.5995
+best epoch 450, best test acc=61.350
+This epoch takes 72 seconds 
+still need around 660.54 mins to finish this session
+epo 457, test, loss=1.5083 acc=0.5980
+best epoch 450, best test acc=61.350
+This epoch takes 73 seconds 
+still need around 667.41 mins to finish this session
+epo 458, test, loss=1.5639 acc=0.5745
+best epoch 450, best test acc=61.350
+This epoch takes 72 seconds 
+still need around 655.76 mins to finish this session
+epo 459, test, loss=1.5851 acc=0.5698
+best epoch 450, best test acc=61.350
+This epoch takes 71 seconds 
+still need around 644.58 mins to finish this session
+epo 460, test, loss=1.5448 acc=0.5793
+best epoch 450, best test acc=61.350
+This epoch takes 73 seconds 
+still need around 661.80 mins to finish this session
+epo 461, test, loss=1.5300 acc=0.5938
+best epoch 450, best test acc=61.350
+This epoch takes 74 seconds 
+still need around 667.75 mins to finish this session
+epo 462, test, loss=1.7150 acc=0.5463
+best epoch 450, best test acc=61.350
+This epoch takes 73 seconds 
+still need around 656.50 mins to finish this session
+epo 463, test, loss=1.8106 acc=0.5223
+best epoch 450, best test acc=61.350
+This epoch takes 73 seconds 
+still need around 655.31 mins to finish this session
+epo 464, test, loss=1.5494 acc=0.5783
+best epoch 450, best test acc=61.350
+This epoch takes 74 seconds 
+still need around 663.76 mins to finish this session
+epo 465, test, loss=1.4787 acc=0.5978
+best epoch 450, best test acc=61.350
+This epoch takes 75 seconds 
+still need around 675.14 mins to finish this session
+epo 466, test, loss=1.4210 acc=0.6138
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 466, best test acc=61.383
+This epoch takes 73 seconds 
+still need around 657.16 mins to finish this session
+epo 467, test, loss=1.5118 acc=0.5932
+best epoch 466, best test acc=61.383
+This epoch takes 74 seconds 
+still need around 659.42 mins to finish this session
+epo 468, test, loss=1.4687 acc=0.6030
+best epoch 466, best test acc=61.383
+This epoch takes 73 seconds 
+still need around 655.77 mins to finish this session
+epo 469, test, loss=1.5739 acc=0.5765
+best epoch 466, best test acc=61.383
+This epoch takes 75 seconds 
+still need around 672.37 mins to finish this session
+epo 470, test, loss=1.4805 acc=0.5985
+best epoch 466, best test acc=61.383
+This epoch takes 75 seconds 
+still need around 669.15 mins to finish this session
+epo 471, test, loss=1.4600 acc=0.6013
+best epoch 466, best test acc=61.383
+This epoch takes 74 seconds 
+still need around 659.87 mins to finish this session
+epo 472, test, loss=1.5324 acc=0.5910
+best epoch 466, best test acc=61.383
+This epoch takes 74 seconds 
+still need around 658.52 mins to finish this session
+epo 473, test, loss=1.4863 acc=0.6018
+best epoch 466, best test acc=61.383
+This epoch takes 74 seconds 
+still need around 652.47 mins to finish this session
+epo 474, test, loss=1.4401 acc=0.6043
+best epoch 466, best test acc=61.383
+This epoch takes 76 seconds 
+still need around 666.86 mins to finish this session
+epo 475, test, loss=1.4841 acc=0.5988
+best epoch 466, best test acc=61.383
+This epoch takes 76 seconds 
+still need around 673.46 mins to finish this session
+epo 476, test, loss=1.4761 acc=0.5957
+best epoch 466, best test acc=61.383
+This epoch takes 75 seconds 
+still need around 655.20 mins to finish this session
+epo 477, test, loss=1.6351 acc=0.5595
+best epoch 466, best test acc=61.383
+This epoch takes 74 seconds 
+still need around 648.90 mins to finish this session
+epo 478, test, loss=1.4703 acc=0.6070
+best epoch 466, best test acc=61.383
+This epoch takes 74 seconds 
+still need around 644.54 mins to finish this session
+epo 479, test, loss=1.5508 acc=0.5877
+best epoch 466, best test acc=61.383
+This epoch takes 75 seconds 
+still need around 658.18 mins to finish this session
+epo 480, test, loss=1.4486 acc=0.6070
+best epoch 466, best test acc=61.383
+This epoch takes 75 seconds 
+still need around 658.33 mins to finish this session
+epo 481, test, loss=1.4193 acc=0.6105
+best epoch 466, best test acc=61.383
+This epoch takes 73 seconds 
+still need around 634.61 mins to finish this session
+epo 482, test, loss=1.4219 acc=0.6165
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 482, best test acc=61.650
+This epoch takes 72 seconds 
+still need around 628.88 mins to finish this session
+epo 483, test, loss=1.4027 acc=0.6193
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 483, best test acc=61.933
+This epoch takes 73 seconds 
+still need around 632.33 mins to finish this session
+epo 484, test, loss=1.4275 acc=0.6123
+best epoch 483, best test acc=61.933
+This epoch takes 73 seconds 
+still need around 634.07 mins to finish this session
+epo 485, test, loss=1.5401 acc=0.5833
+best epoch 483, best test acc=61.933
+This epoch takes 72 seconds 
+still need around 624.12 mins to finish this session
+epo 486, test, loss=1.5382 acc=0.5810
+best epoch 483, best test acc=61.933
+This epoch takes 71 seconds 
+still need around 613.98 mins to finish this session
+epo 487, test, loss=1.5967 acc=0.5743
+best epoch 483, best test acc=61.933
+This epoch takes 73 seconds 
+still need around 631.01 mins to finish this session
+epo 488, test, loss=1.5888 acc=0.5723
+best epoch 483, best test acc=61.933
+This epoch takes 73 seconds 
+still need around 623.19 mins to finish this session
+epo 489, test, loss=1.5887 acc=0.5742
+best epoch 483, best test acc=61.933
+This epoch takes 71 seconds 
+still need around 610.79 mins to finish this session
+epo 490, test, loss=1.5072 acc=0.5950
+best epoch 483, best test acc=61.933
+This epoch takes 71 seconds 
+still need around 606.16 mins to finish this session
+epo 491, test, loss=1.4882 acc=0.5975
+best epoch 483, best test acc=61.933
+This epoch takes 72 seconds 
+still need around 616.09 mins to finish this session
+epo 492, test, loss=1.4993 acc=0.5950
+best epoch 483, best test acc=61.933
+This epoch takes 72 seconds 
+still need around 616.25 mins to finish this session
+epo 493, test, loss=1.4516 acc=0.6053
+best epoch 483, best test acc=61.933
+This epoch takes 70 seconds 
+still need around 594.21 mins to finish this session
+epo 494, test, loss=1.4600 acc=0.6022
+best epoch 483, best test acc=61.933
+This epoch takes 74 seconds 
+still need around 625.87 mins to finish this session
+epo 495, test, loss=1.5493 acc=0.5822
+best epoch 483, best test acc=61.933
+This epoch takes 73 seconds 
+still need around 620.51 mins to finish this session
+epo 496, test, loss=1.4634 acc=0.6038
+best epoch 483, best test acc=61.933
+This epoch takes 70 seconds 
+still need around 590.47 mins to finish this session
+epo 497, test, loss=1.4674 acc=0.6005
+best epoch 483, best test acc=61.933
+This epoch takes 71 seconds 
+still need around 599.32 mins to finish this session
+epo 498, test, loss=1.4244 acc=0.6167
+best epoch 483, best test acc=61.933
+This epoch takes 73 seconds 
+still need around 613.23 mins to finish this session
+epo 499, test, loss=1.4715 acc=0.6055
+best epoch 483, best test acc=61.933
+This epoch takes 73 seconds 
+still need around 613.19 mins to finish this session
+epo 500, test, loss=1.6432 acc=0.5622
+best epoch 483, best test acc=61.933
+This epoch takes 70 seconds 
+still need around 584.03 mins to finish this session
+epo 501, test, loss=1.4749 acc=0.6032
+best epoch 483, best test acc=61.933
+This epoch takes 73 seconds 
+still need around 610.00 mins to finish this session
+epo 502, test, loss=1.4184 acc=0.6168
+best epoch 483, best test acc=61.933
+This epoch takes 72 seconds 
+still need around 604.02 mins to finish this session
+epo 503, test, loss=1.4700 acc=0.5993
+best epoch 483, best test acc=61.933
+This epoch takes 70 seconds 
+still need around 587.98 mins to finish this session
+epo 504, test, loss=1.4379 acc=0.6052
+best epoch 483, best test acc=61.933
+This epoch takes 70 seconds 
+still need around 585.75 mins to finish this session
+epo 505, test, loss=1.4724 acc=0.5960
+best epoch 483, best test acc=61.933
+This epoch takes 72 seconds 
+still need around 599.37 mins to finish this session
+epo 506, test, loss=1.5225 acc=0.5918
+best epoch 483, best test acc=61.933
+This epoch takes 72 seconds 
+still need around 597.74 mins to finish this session
+epo 507, test, loss=1.4650 acc=0.5968
+best epoch 483, best test acc=61.933
+This epoch takes 71 seconds 
+still need around 586.02 mins to finish this session
+epo 508, test, loss=1.4922 acc=0.5927
+best epoch 483, best test acc=61.933
+This epoch takes 72 seconds 
+still need around 598.53 mins to finish this session
+epo 509, test, loss=1.5045 acc=0.5958
+best epoch 483, best test acc=61.933
+This epoch takes 73 seconds 
+still need around 602.62 mins to finish this session
+epo 510, test, loss=1.4043 acc=0.6120
+best epoch 483, best test acc=61.933
+This epoch takes 71 seconds 
+still need around 581.58 mins to finish this session
+epo 511, test, loss=1.5635 acc=0.5763
+best epoch 483, best test acc=61.933
+This epoch takes 71 seconds 
+still need around 578.94 mins to finish this session
+epo 512, test, loss=1.6030 acc=0.5633
+best epoch 483, best test acc=61.933
+This epoch takes 72 seconds 
+still need around 591.24 mins to finish this session
+epo 513, test, loss=1.4880 acc=0.5925
+best epoch 483, best test acc=61.933
+This epoch takes 71 seconds 
+still need around 582.27 mins to finish this session
+epo 514, test, loss=1.3786 acc=0.6168
+best epoch 483, best test acc=61.933
+This epoch takes 72 seconds 
+still need around 583.30 mins to finish this session
+epo 515, test, loss=1.3907 acc=0.6228
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 515, best test acc=62.283
+This epoch takes 73 seconds 
+still need around 590.96 mins to finish this session
+epo 516, test, loss=1.4962 acc=0.5917
+best epoch 515, best test acc=62.283
+This epoch takes 72 seconds 
+still need around 587.76 mins to finish this session
+epo 517, test, loss=1.3569 acc=0.6268
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 517, best test acc=62.683
+This epoch takes 72 seconds 
+still need around 580.26 mins to finish this session
+epo 518, test, loss=1.4273 acc=0.6082
+best epoch 517, best test acc=62.683
+This epoch takes 71 seconds 
+still need around 576.29 mins to finish this session
+epo 519, test, loss=1.4462 acc=0.6158
+best epoch 517, best test acc=62.683
+This epoch takes 73 seconds 
+still need around 587.32 mins to finish this session
+epo 520, test, loss=1.4088 acc=0.6162
+best epoch 517, best test acc=62.683
+This epoch takes 71 seconds 
+still need around 573.28 mins to finish this session
+epo 521, test, loss=1.4186 acc=0.6132
+best epoch 517, best test acc=62.683
+This epoch takes 71 seconds 
+still need around 573.85 mins to finish this session
+epo 522, test, loss=1.4123 acc=0.6105
+best epoch 517, best test acc=62.683
+This epoch takes 73 seconds 
+still need around 582.50 mins to finish this session
+epo 523, test, loss=1.4089 acc=0.6197
+best epoch 517, best test acc=62.683
+This epoch takes 72 seconds 
+still need around 577.08 mins to finish this session
+epo 524, test, loss=1.5461 acc=0.5775
+best epoch 517, best test acc=62.683
+This epoch takes 72 seconds 
+still need around 575.26 mins to finish this session
+epo 525, test, loss=1.4610 acc=0.5993
+best epoch 517, best test acc=62.683
+This epoch takes 71 seconds 
+still need around 562.44 mins to finish this session
+epo 526, test, loss=1.4779 acc=0.6005
+best epoch 517, best test acc=62.683
+This epoch takes 72 seconds 
+still need around 571.55 mins to finish this session
+epo 527, test, loss=1.4407 acc=0.6122
+best epoch 517, best test acc=62.683
+This epoch takes 71 seconds 
+still need around 563.84 mins to finish this session
+epo 528, test, loss=1.4695 acc=0.6080
+best epoch 517, best test acc=62.683
+This epoch takes 71 seconds 
+still need around 558.85 mins to finish this session
+epo 529, test, loss=1.4763 acc=0.5935
+best epoch 517, best test acc=62.683
+This epoch takes 72 seconds 
+still need around 569.10 mins to finish this session
+epo 530, test, loss=1.5197 acc=0.5995
+best epoch 517, best test acc=62.683
+This epoch takes 72 seconds 
+still need around 571.08 mins to finish this session
+epo 531, test, loss=1.4254 acc=0.6132
+best epoch 517, best test acc=62.683
+This epoch takes 72 seconds 
+still need around 563.56 mins to finish this session
+epo 532, test, loss=1.3650 acc=0.6332
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 532, best test acc=63.317
+This epoch takes 72 seconds 
+still need around 567.91 mins to finish this session
+epo 533, test, loss=1.4055 acc=0.6183
+best epoch 532, best test acc=63.317
+This epoch takes 72 seconds 
+still need around 561.81 mins to finish this session
+epo 534, test, loss=1.4374 acc=0.6152
+best epoch 532, best test acc=63.317
+This epoch takes 72 seconds 
+still need around 562.53 mins to finish this session
+epo 535, test, loss=1.4747 acc=0.6093
+best epoch 532, best test acc=63.317
+This epoch takes 70 seconds 
+still need around 547.61 mins to finish this session
+epo 536, test, loss=1.4671 acc=0.6048
+best epoch 532, best test acc=63.317
+This epoch takes 73 seconds 
+still need around 567.28 mins to finish this session
+epo 537, test, loss=1.5489 acc=0.5910
+best epoch 532, best test acc=63.317
+This epoch takes 73 seconds 
+still need around 566.79 mins to finish this session
+epo 538, test, loss=1.5344 acc=0.5860
+best epoch 532, best test acc=63.317
+This epoch takes 71 seconds 
+still need around 554.20 mins to finish this session
+epo 539, test, loss=1.4184 acc=0.6223
+best epoch 532, best test acc=63.317
+This epoch takes 72 seconds 
+still need around 554.04 mins to finish this session
+epo 540, test, loss=1.4080 acc=0.6158
+best epoch 532, best test acc=63.317
+This epoch takes 72 seconds 
+still need around 558.30 mins to finish this session
+epo 541, test, loss=1.3532 acc=0.6310
+best epoch 532, best test acc=63.317
+This epoch takes 72 seconds 
+still need around 552.92 mins to finish this session
+epo 542, test, loss=1.3416 acc=0.6332
+best epoch 532, best test acc=63.317
+This epoch takes 71 seconds 
+still need around 547.09 mins to finish this session
+epo 543, test, loss=1.5884 acc=0.5792
+best epoch 532, best test acc=63.317
+This epoch takes 72 seconds 
+still need around 551.42 mins to finish this session
+epo 544, test, loss=1.3951 acc=0.6257
+best epoch 532, best test acc=63.317
+This epoch takes 72 seconds 
+still need around 550.76 mins to finish this session
+epo 545, test, loss=1.3333 acc=0.6300
+best epoch 532, best test acc=63.317
+This epoch takes 66 seconds 
+still need around 503.72 mins to finish this session
+epo 546, test, loss=1.4291 acc=0.6062
+best epoch 532, best test acc=63.317
+This epoch takes 61 seconds 
+still need around 464.18 mins to finish this session
+epo 547, test, loss=1.3786 acc=0.6247
+best epoch 532, best test acc=63.317
+This epoch takes 74 seconds 
+still need around 559.87 mins to finish this session
+epo 548, test, loss=1.3806 acc=0.6228
+best epoch 532, best test acc=63.317
+This epoch takes 77 seconds 
+still need around 582.78 mins to finish this session
+epo 549, test, loss=1.3768 acc=0.6223
+best epoch 532, best test acc=63.317
+This epoch takes 78 seconds 
+still need around 588.86 mins to finish this session
+epo 550, test, loss=1.3133 acc=0.6418
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 550, best test acc=64.183
+This epoch takes 76 seconds 
+still need around 577.47 mins to finish this session
+epo 551, test, loss=1.3695 acc=0.6297
+best epoch 550, best test acc=64.183
+This epoch takes 76 seconds 
+still need around 570.02 mins to finish this session
+epo 552, test, loss=1.4338 acc=0.6113
+best epoch 550, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 586.43 mins to finish this session
+epo 553, test, loss=1.4067 acc=0.6155
+best epoch 550, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 581.84 mins to finish this session
+epo 554, test, loss=1.4044 acc=0.6178
+best epoch 550, best test acc=64.183
+This epoch takes 76 seconds 
+still need around 567.73 mins to finish this session
+epo 555, test, loss=1.3867 acc=0.6212
+best epoch 550, best test acc=64.183
+This epoch takes 75 seconds 
+still need around 559.36 mins to finish this session
+epo 556, test, loss=1.4651 acc=0.6025
+best epoch 550, best test acc=64.183
+This epoch takes 77 seconds 
+still need around 573.10 mins to finish this session
+epo 557, test, loss=1.3846 acc=0.6298
+best epoch 550, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 576.76 mins to finish this session
+epo 558, test, loss=1.3875 acc=0.6153
+best epoch 550, best test acc=64.183
+This epoch takes 75 seconds 
+still need around 555.72 mins to finish this session
+epo 559, test, loss=1.4208 acc=0.6123
+best epoch 550, best test acc=64.183
+This epoch takes 76 seconds 
+still need around 561.25 mins to finish this session
+epo 560, test, loss=1.4241 acc=0.6160
+best epoch 550, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 576.15 mins to finish this session
+epo 561, test, loss=1.4718 acc=0.6093
+best epoch 550, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 574.36 mins to finish this session
+epo 562, test, loss=1.3271 acc=0.6403
+best epoch 550, best test acc=64.183
+This epoch takes 77 seconds 
+still need around 564.82 mins to finish this session
+epo 563, test, loss=1.4144 acc=0.6108
+best epoch 550, best test acc=64.183
+This epoch takes 75 seconds 
+still need around 549.66 mins to finish this session
+epo 564, test, loss=1.3528 acc=0.6315
+best epoch 550, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 568.95 mins to finish this session
+epo 565, test, loss=1.3786 acc=0.6262
+best epoch 550, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 568.02 mins to finish this session
+epo 566, test, loss=1.3245 acc=0.6410
+best epoch 550, best test acc=64.183
+This epoch takes 74 seconds 
+still need around 535.39 mins to finish this session
+epo 567, test, loss=1.3209 acc=0.6377
+best epoch 550, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 568.43 mins to finish this session
+epo 568, test, loss=1.4150 acc=0.6110
+best epoch 550, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 567.50 mins to finish this session
+epo 569, test, loss=1.3889 acc=0.6258
+best epoch 550, best test acc=64.183
+This epoch takes 74 seconds 
+still need around 533.87 mins to finish this session
+epo 570, test, loss=1.3291 acc=0.6348
+best epoch 550, best test acc=64.183
+This epoch takes 76 seconds 
+still need around 549.98 mins to finish this session
+epo 571, test, loss=1.4088 acc=0.6183
+best epoch 550, best test acc=64.183
+This epoch takes 77 seconds 
+still need around 553.26 mins to finish this session
+epo 572, test, loss=1.4664 acc=0.6070
+best epoch 550, best test acc=64.183
+This epoch takes 73 seconds 
+still need around 527.59 mins to finish this session
+epo 573, test, loss=1.4602 acc=0.6053
+best epoch 550, best test acc=64.183
+This epoch takes 76 seconds 
+still need around 541.69 mins to finish this session
+epo 574, test, loss=1.3186 acc=0.6373
+best epoch 550, best test acc=64.183
+This epoch takes 77 seconds 
+still need around 548.85 mins to finish this session
+epo 575, test, loss=1.3837 acc=0.6240
+best epoch 550, best test acc=64.183
+This epoch takes 73 seconds 
+still need around 519.42 mins to finish this session
+epo 576, test, loss=1.5916 acc=0.5753
+best epoch 550, best test acc=64.183
+This epoch takes 77 seconds 
+still need around 546.19 mins to finish this session
+epo 577, test, loss=1.4140 acc=0.6143
+best epoch 550, best test acc=64.183
+This epoch takes 79 seconds 
+still need around 558.81 mins to finish this session
+epo 578, test, loss=1.4200 acc=0.6175
+best epoch 550, best test acc=64.183
+This epoch takes 76 seconds 
+still need around 540.25 mins to finish this session
+epo 579, test, loss=1.3409 acc=0.6377
+best epoch 550, best test acc=64.183
+This epoch takes 74 seconds 
+still need around 523.95 mins to finish this session
+epo 580, test, loss=1.3028 acc=0.6418
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 580, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 549.83 mins to finish this session
+epo 581, test, loss=1.3349 acc=0.6375
+best epoch 580, best test acc=64.183
+This epoch takes 79 seconds 
+still need around 554.59 mins to finish this session
+epo 582, test, loss=1.3857 acc=0.6253
+best epoch 580, best test acc=64.183
+This epoch takes 76 seconds 
+still need around 532.63 mins to finish this session
+epo 583, test, loss=1.3653 acc=0.6262
+best epoch 580, best test acc=64.183
+This epoch takes 72 seconds 
+still need around 507.20 mins to finish this session
+epo 584, test, loss=1.3121 acc=0.6377
+best epoch 580, best test acc=64.183
+This epoch takes 78 seconds 
+still need around 543.70 mins to finish this session
+epo 585, test, loss=1.4143 acc=0.6172
+best epoch 580, best test acc=64.183
+This epoch takes 79 seconds 
+still need around 547.58 mins to finish this session
+epo 586, test, loss=1.3211 acc=0.6457
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 586, best test acc=64.567
+This epoch takes 76 seconds 
+still need around 525.60 mins to finish this session
+epo 587, test, loss=1.3610 acc=0.6282
+best epoch 586, best test acc=64.567
+This epoch takes 75 seconds 
+still need around 516.68 mins to finish this session
+epo 588, test, loss=1.3762 acc=0.6287
+best epoch 586, best test acc=64.567
+This epoch takes 78 seconds 
+still need around 539.87 mins to finish this session
+epo 589, test, loss=1.4205 acc=0.6148
+best epoch 586, best test acc=64.567
+This epoch takes 78 seconds 
+still need around 535.94 mins to finish this session
+epo 590, test, loss=1.3168 acc=0.6393
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 532.66 mins to finish this session
+epo 591, test, loss=1.4036 acc=0.6198
+best epoch 586, best test acc=64.567
+This epoch takes 74 seconds 
+still need around 510.21 mins to finish this session
+epo 592, test, loss=1.3791 acc=0.6287
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 524.03 mins to finish this session
+epo 593, test, loss=1.3448 acc=0.6290
+best epoch 586, best test acc=64.567
+This epoch takes 79 seconds 
+still need around 538.10 mins to finish this session
+epo 594, test, loss=1.3144 acc=0.6403
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 524.10 mins to finish this session
+epo 595, test, loss=1.3215 acc=0.6407
+best epoch 586, best test acc=64.567
+This epoch takes 73 seconds 
+still need around 498.16 mins to finish this session
+epo 596, test, loss=1.4227 acc=0.6165
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 523.69 mins to finish this session
+epo 597, test, loss=1.3356 acc=0.6310
+best epoch 586, best test acc=64.567
+This epoch takes 78 seconds 
+still need around 530.13 mins to finish this session
+epo 598, test, loss=1.3260 acc=0.6368
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 517.85 mins to finish this session
+epo 599, test, loss=1.4284 acc=0.6170
+best epoch 586, best test acc=64.567
+This epoch takes 75 seconds 
+still need around 506.84 mins to finish this session
+epo 600, test, loss=1.3702 acc=0.6315
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 517.63 mins to finish this session
+epo 601, test, loss=1.4225 acc=0.6155
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 516.34 mins to finish this session
+epo 602, test, loss=1.3455 acc=0.6322
+best epoch 586, best test acc=64.567
+This epoch takes 76 seconds 
+still need around 510.62 mins to finish this session
+epo 603, test, loss=1.3837 acc=0.6273
+best epoch 586, best test acc=64.567
+This epoch takes 78 seconds 
+still need around 516.54 mins to finish this session
+epo 604, test, loss=1.3615 acc=0.6282
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 510.28 mins to finish this session
+epo 605, test, loss=1.3219 acc=0.6437
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 513.10 mins to finish this session
+epo 606, test, loss=1.2931 acc=0.6445
+best epoch 586, best test acc=64.567
+This epoch takes 77 seconds 
+still need around 507.60 mins to finish this session
+epo 607, test, loss=1.3588 acc=0.6288
+best epoch 586, best test acc=64.567
+This epoch takes 78 seconds 
+still need around 514.38 mins to finish this session
+epo 608, test, loss=1.3085 acc=0.6407
+best epoch 586, best test acc=64.567
+This epoch takes 78 seconds 
+still need around 511.66 mins to finish this session
+epo 609, test, loss=1.3396 acc=0.6358
+best epoch 586, best test acc=64.567
+This epoch takes 78 seconds 
+still need around 508.64 mins to finish this session
+epo 610, test, loss=1.3052 acc=0.6403
+best epoch 586, best test acc=64.567
+This epoch takes 76 seconds 
+still need around 498.48 mins to finish this session
+epo 611, test, loss=1.3223 acc=0.6377
+best epoch 586, best test acc=64.567
+This epoch takes 78 seconds 
+still need around 510.55 mins to finish this session
+epo 612, test, loss=1.3424 acc=0.6358
+best epoch 586, best test acc=64.567
+This epoch takes 79 seconds 
+still need around 513.08 mins to finish this session
+epo 613, test, loss=1.2744 acc=0.6523
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 613, best test acc=65.233
+This epoch takes 77 seconds 
+still need around 502.60 mins to finish this session
+epo 614, test, loss=1.2965 acc=0.6453
+best epoch 613, best test acc=65.233
+This epoch takes 78 seconds 
+still need around 501.95 mins to finish this session
+epo 615, test, loss=1.3036 acc=0.6427
+best epoch 613, best test acc=65.233
+This epoch takes 77 seconds 
+still need around 496.76 mins to finish this session
+epo 616, test, loss=1.4019 acc=0.6282
+best epoch 613, best test acc=65.233
+This epoch takes 77 seconds 
+still need around 497.03 mins to finish this session
+epo 617, test, loss=1.4428 acc=0.6178
+best epoch 613, best test acc=65.233
+This epoch takes 80 seconds 
+still need around 511.67 mins to finish this session
+epo 618, test, loss=1.3694 acc=0.6257
+best epoch 613, best test acc=65.233
+This epoch takes 78 seconds 
+still need around 496.61 mins to finish this session
+epo 619, test, loss=1.3113 acc=0.6418
+best epoch 613, best test acc=65.233
+This epoch takes 76 seconds 
+still need around 486.69 mins to finish this session
+epo 620, test, loss=1.3474 acc=0.6327
+best epoch 613, best test acc=65.233
+This epoch takes 77 seconds 
+still need around 492.21 mins to finish this session
+epo 621, test, loss=1.2983 acc=0.6490
+best epoch 613, best test acc=65.233
+This epoch takes 79 seconds 
+still need around 503.64 mins to finish this session
+epo 622, test, loss=1.3044 acc=0.6452
+best epoch 613, best test acc=65.233
+This epoch takes 79 seconds 
+still need around 499.91 mins to finish this session
+epo 623, test, loss=1.2985 acc=0.6457
+best epoch 613, best test acc=65.233
+This epoch takes 76 seconds 
+still need around 479.91 mins to finish this session
+epo 624, test, loss=1.3392 acc=0.6383
+best epoch 613, best test acc=65.233
+This epoch takes 76 seconds 
+still need around 478.66 mins to finish this session
+epo 625, test, loss=1.3498 acc=0.6350
+best epoch 613, best test acc=65.233
+This epoch takes 78 seconds 
+still need around 491.88 mins to finish this session
+epo 626, test, loss=1.2981 acc=0.6428
+best epoch 613, best test acc=65.233
+This epoch takes 79 seconds 
+still need around 498.11 mins to finish this session
+epo 627, test, loss=1.2117 acc=0.6660
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 627, best test acc=66.600
+This epoch takes 76 seconds 
+still need around 476.83 mins to finish this session
+epo 628, test, loss=1.2789 acc=0.6538
+best epoch 627, best test acc=66.600
+This epoch takes 76 seconds 
+still need around 475.65 mins to finish this session
+epo 629, test, loss=1.4454 acc=0.6075
+best epoch 627, best test acc=66.600
+This epoch takes 79 seconds 
+still need around 489.94 mins to finish this session
+epo 630, test, loss=1.2739 acc=0.6553
+best epoch 627, best test acc=66.600
+This epoch takes 81 seconds 
+still need around 500.64 mins to finish this session
+epo 631, test, loss=1.2610 acc=0.6622
+best epoch 627, best test acc=66.600
+This epoch takes 77 seconds 
+still need around 477.44 mins to finish this session
+epo 632, test, loss=1.2732 acc=0.6507
+best epoch 627, best test acc=66.600
+This epoch takes 76 seconds 
+still need around 468.86 mins to finish this session
+epo 633, test, loss=1.3018 acc=0.6492
+best epoch 627, best test acc=66.600
+This epoch takes 80 seconds 
+still need around 492.04 mins to finish this session
+epo 634, test, loss=1.3171 acc=0.6400
+best epoch 627, best test acc=66.600
+This epoch takes 81 seconds 
+still need around 496.60 mins to finish this session
+epo 635, test, loss=1.3085 acc=0.6453
+best epoch 627, best test acc=66.600
+This epoch takes 78 seconds 
+still need around 474.86 mins to finish this session
+epo 636, test, loss=1.2689 acc=0.6543
+best epoch 627, best test acc=66.600
+This epoch takes 78 seconds 
+still need around 478.20 mins to finish this session
+epo 637, test, loss=1.2560 acc=0.6588
+best epoch 627, best test acc=66.600
+This epoch takes 80 seconds 
+still need around 487.90 mins to finish this session
+epo 638, test, loss=1.2542 acc=0.6612
+best epoch 627, best test acc=66.600
+This epoch takes 80 seconds 
+still need around 487.40 mins to finish this session
+epo 639, test, loss=1.3644 acc=0.6263
+best epoch 627, best test acc=66.600
+This epoch takes 78 seconds 
+still need around 472.12 mins to finish this session
+epo 640, test, loss=1.2669 acc=0.6580
+best epoch 627, best test acc=66.600
+This epoch takes 78 seconds 
+still need around 468.71 mins to finish this session
+epo 641, test, loss=1.2254 acc=0.6640
+best epoch 627, best test acc=66.600
+This epoch takes 77 seconds 
+still need around 461.54 mins to finish this session
+epo 642, test, loss=1.2608 acc=0.6505
+best epoch 627, best test acc=66.600
+This epoch takes 80 seconds 
+still need around 479.64 mins to finish this session
+epo 643, test, loss=1.2598 acc=0.6550
+best epoch 627, best test acc=66.600
+This epoch takes 80 seconds 
+still need around 476.51 mins to finish this session
+epo 644, test, loss=1.2828 acc=0.6602
+best epoch 627, best test acc=66.600
+This epoch takes 77 seconds 
+still need around 462.09 mins to finish this session
+epo 645, test, loss=1.2685 acc=0.6558
+best epoch 627, best test acc=66.600
+This epoch takes 76 seconds 
+still need around 453.71 mins to finish this session
+epo 646, test, loss=1.2333 acc=0.6630
+best epoch 627, best test acc=66.600
+This epoch takes 78 seconds 
+still need around 466.08 mins to finish this session
+epo 647, test, loss=1.2134 acc=0.6700
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 647, best test acc=67.000
+This epoch takes 80 seconds 
+still need around 473.46 mins to finish this session
+epo 648, test, loss=1.2777 acc=0.6530
+best epoch 647, best test acc=67.000
+This epoch takes 78 seconds 
+still need around 460.28 mins to finish this session
+epo 649, test, loss=1.2991 acc=0.6505
+best epoch 647, best test acc=67.000
+This epoch takes 76 seconds 
+still need around 449.42 mins to finish this session
+epo 650, test, loss=1.2712 acc=0.6532
+best epoch 647, best test acc=67.000
+This epoch takes 76 seconds 
+still need around 447.53 mins to finish this session
+epo 651, test, loss=1.2856 acc=0.6530
+best epoch 647, best test acc=67.000
+This epoch takes 78 seconds 
+still need around 457.88 mins to finish this session
+epo 652, test, loss=1.2558 acc=0.6518
+best epoch 647, best test acc=67.000
+This epoch takes 79 seconds 
+still need around 458.76 mins to finish this session
+epo 653, test, loss=1.2464 acc=0.6562
+best epoch 647, best test acc=67.000
+This epoch takes 76 seconds 
+still need around 444.54 mins to finish this session
+epo 654, test, loss=1.2667 acc=0.6575
+best epoch 647, best test acc=67.000
+This epoch takes 76 seconds 
+still need around 442.12 mins to finish this session
+epo 655, test, loss=1.2556 acc=0.6555
+best epoch 647, best test acc=67.000
+This epoch takes 78 seconds 
+still need around 448.55 mins to finish this session
+epo 656, test, loss=1.2550 acc=0.6647
+best epoch 647, best test acc=67.000
+This epoch takes 79 seconds 
+still need around 454.23 mins to finish this session
+epo 657, test, loss=1.2084 acc=0.6742
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 657, best test acc=67.417
+This epoch takes 78 seconds 
+still need around 445.96 mins to finish this session
+epo 658, test, loss=1.2054 acc=0.6697
+best epoch 657, best test acc=67.417
+This epoch takes 76 seconds 
+still need around 434.65 mins to finish this session
+epo 659, test, loss=1.2313 acc=0.6592
+best epoch 657, best test acc=67.417
+This epoch takes 76 seconds 
+still need around 435.76 mins to finish this session
+epo 660, test, loss=1.3214 acc=0.6492
+best epoch 657, best test acc=67.417
+This epoch takes 78 seconds 
+still need around 443.61 mins to finish this session
+epo 661, test, loss=1.2723 acc=0.6590
+best epoch 657, best test acc=67.417
+This epoch takes 78 seconds 
+still need around 446.07 mins to finish this session
+epo 662, test, loss=1.2689 acc=0.6548
+best epoch 657, best test acc=67.417
+This epoch takes 77 seconds 
+still need around 436.24 mins to finish this session
+epo 663, test, loss=1.2026 acc=0.6697
+best epoch 657, best test acc=67.417
+This epoch takes 75 seconds 
+still need around 423.72 mins to finish this session
+epo 664, test, loss=1.2748 acc=0.6492
+best epoch 657, best test acc=67.417
+This epoch takes 67 seconds 
+still need around 380.01 mins to finish this session
+epo 665, test, loss=1.3233 acc=0.6445
+best epoch 657, best test acc=67.417
+This epoch takes 66 seconds 
+still need around 371.11 mins to finish this session
+epo 666, test, loss=1.2500 acc=0.6582
+best epoch 657, best test acc=67.417
+This epoch takes 81 seconds 
+still need around 451.32 mins to finish this session
+epo 667, test, loss=1.2382 acc=0.6597
+best epoch 657, best test acc=67.417
+This epoch takes 81 seconds 
+still need around 454.16 mins to finish this session
+epo 668, test, loss=1.3155 acc=0.6443
+best epoch 657, best test acc=67.417
+This epoch takes 77 seconds 
+still need around 428.98 mins to finish this session
+epo 669, test, loss=1.2471 acc=0.6623
+best epoch 657, best test acc=67.417
+This epoch takes 81 seconds 
+still need around 447.38 mins to finish this session
+epo 670, test, loss=1.2562 acc=0.6582
+best epoch 657, best test acc=67.417
+This epoch takes 84 seconds 
+still need around 464.43 mins to finish this session
+epo 671, test, loss=1.2854 acc=0.6547
+best epoch 657, best test acc=67.417
+This epoch takes 81 seconds 
+still need around 448.84 mins to finish this session
+epo 672, test, loss=1.2059 acc=0.6740
+best epoch 657, best test acc=67.417
+This epoch takes 77 seconds 
+still need around 423.26 mins to finish this session
+epo 673, test, loss=1.2367 acc=0.6650
+best epoch 657, best test acc=67.417
+This epoch takes 82 seconds 
+still need around 448.95 mins to finish this session
+epo 674, test, loss=1.2101 acc=0.6695
+best epoch 657, best test acc=67.417
+This epoch takes 83 seconds 
+still need around 454.98 mins to finish this session
+epo 675, test, loss=1.2005 acc=0.6713
+best epoch 657, best test acc=67.417
+This epoch takes 77 seconds 
+still need around 417.99 mins to finish this session
+epo 676, test, loss=1.2687 acc=0.6517
+best epoch 657, best test acc=67.417
+This epoch takes 81 seconds 
+still need around 437.44 mins to finish this session
+epo 677, test, loss=1.2228 acc=0.6698
+best epoch 657, best test acc=67.417
+This epoch takes 81 seconds 
+still need around 440.01 mins to finish this session
+epo 678, test, loss=1.2577 acc=0.6590
+best epoch 657, best test acc=67.417
+This epoch takes 82 seconds 
+still need around 445.04 mins to finish this session
+epo 679, test, loss=1.2233 acc=0.6722
+best epoch 657, best test acc=67.417
+This epoch takes 79 seconds 
+still need around 427.91 mins to finish this session
+epo 680, test, loss=1.2350 acc=0.6655
+best epoch 657, best test acc=67.417
+This epoch takes 80 seconds 
+still need around 429.85 mins to finish this session
+epo 681, test, loss=1.2101 acc=0.6693
+best epoch 657, best test acc=67.417
+This epoch takes 81 seconds 
+still need around 435.83 mins to finish this session
+epo 682, test, loss=1.2287 acc=0.6627
+best epoch 657, best test acc=67.417
+This epoch takes 83 seconds 
+still need around 441.05 mins to finish this session
+epo 683, test, loss=1.2212 acc=0.6692
+best epoch 657, best test acc=67.417
+This epoch takes 81 seconds 
+still need around 429.45 mins to finish this session
+epo 684, test, loss=1.1757 acc=0.6762
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 684, best test acc=67.617
+This epoch takes 80 seconds 
+still need around 425.62 mins to finish this session
+epo 685, test, loss=1.1988 acc=0.6713
+best epoch 684, best test acc=67.617
+This epoch takes 82 seconds 
+still need around 433.18 mins to finish this session
+epo 686, test, loss=1.2245 acc=0.6733
+best epoch 684, best test acc=67.617
+This epoch takes 83 seconds 
+still need around 434.86 mins to finish this session
+epo 687, test, loss=1.1906 acc=0.6740
+best epoch 684, best test acc=67.617
+This epoch takes 82 seconds 
+still need around 431.95 mins to finish this session
+epo 688, test, loss=1.2835 acc=0.6508
+best epoch 684, best test acc=67.617
+This epoch takes 81 seconds 
+still need around 423.24 mins to finish this session
+epo 689, test, loss=1.2739 acc=0.6590
+best epoch 684, best test acc=67.617
+This epoch takes 81 seconds 
+still need around 421.78 mins to finish this session
+epo 690, test, loss=1.1940 acc=0.6752
+best epoch 684, best test acc=67.617
+This epoch takes 82 seconds 
+still need around 424.98 mins to finish this session
+epo 691, test, loss=1.2311 acc=0.6612
+best epoch 684, best test acc=67.617
+This epoch takes 81 seconds 
+still need around 420.20 mins to finish this session
+epo 692, test, loss=1.1789 acc=0.6795
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 692, best test acc=67.950
+This epoch takes 80 seconds 
+still need around 414.48 mins to finish this session
+epo 693, test, loss=1.1484 acc=0.6857
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 693, best test acc=68.567
+This epoch takes 82 seconds 
+still need around 420.58 mins to finish this session
+epo 694, test, loss=1.2045 acc=0.6742
+best epoch 693, best test acc=68.567
+This epoch takes 80 seconds 
+still need around 411.80 mins to finish this session
+epo 695, test, loss=1.2270 acc=0.6737
+best epoch 693, best test acc=68.567
+This epoch takes 80 seconds 
+still need around 411.24 mins to finish this session
+epo 696, test, loss=1.2260 acc=0.6625
+best epoch 693, best test acc=68.567
+This epoch takes 80 seconds 
+still need around 408.42 mins to finish this session
+epo 697, test, loss=1.2705 acc=0.6540
+best epoch 693, best test acc=68.567
+This epoch takes 81 seconds 
+still need around 412.98 mins to finish this session
+epo 698, test, loss=1.2356 acc=0.6593
+best epoch 693, best test acc=68.567
+This epoch takes 83 seconds 
+still need around 421.27 mins to finish this session
+epo 699, test, loss=1.2444 acc=0.6672
+best epoch 693, best test acc=68.567
+This epoch takes 82 seconds 
+still need around 414.01 mins to finish this session
+epo 700, test, loss=1.2111 acc=0.6728
+best epoch 693, best test acc=68.567
+This epoch takes 81 seconds 
+still need around 407.96 mins to finish this session
+epo 701, test, loss=1.3131 acc=0.6482
+best epoch 693, best test acc=68.567
+This epoch takes 80 seconds 
+still need around 402.11 mins to finish this session
+epo 702, test, loss=1.2397 acc=0.6577
+best epoch 693, best test acc=68.567
+This epoch takes 81 seconds 
+still need around 402.78 mins to finish this session
+epo 703, test, loss=1.2797 acc=0.6563
+best epoch 693, best test acc=68.567
+This epoch takes 82 seconds 
+still need around 410.61 mins to finish this session
+epo 704, test, loss=1.1852 acc=0.6748
+best epoch 693, best test acc=68.567
+This epoch takes 80 seconds 
+still need around 396.75 mins to finish this session
+epo 705, test, loss=1.2358 acc=0.6628
+best epoch 693, best test acc=68.567
+This epoch takes 81 seconds 
+still need around 400.01 mins to finish this session
+epo 706, test, loss=1.2364 acc=0.6638
+best epoch 693, best test acc=68.567
+This epoch takes 80 seconds 
+still need around 394.97 mins to finish this session
+epo 707, test, loss=1.1643 acc=0.6837
+best epoch 693, best test acc=68.567
+This epoch takes 82 seconds 
+still need around 404.54 mins to finish this session
+epo 708, test, loss=1.2298 acc=0.6690
+best epoch 693, best test acc=68.567
+This epoch takes 82 seconds 
+still need around 402.96 mins to finish this session
+epo 709, test, loss=1.2315 acc=0.6625
+best epoch 693, best test acc=68.567
+This epoch takes 82 seconds 
+still need around 399.60 mins to finish this session
+epo 710, test, loss=1.1742 acc=0.6812
+best epoch 693, best test acc=68.567
+This epoch takes 79 seconds 
+still need around 385.84 mins to finish this session
+epo 711, test, loss=1.1580 acc=0.6853
+best epoch 693, best test acc=68.567
+This epoch takes 83 seconds 
+still need around 401.97 mins to finish this session
+epo 712, test, loss=1.2408 acc=0.6682
+best epoch 693, best test acc=68.567
+This epoch takes 82 seconds 
+still need around 394.85 mins to finish this session
+epo 713, test, loss=1.1645 acc=0.6772
+best epoch 693, best test acc=68.567
+This epoch takes 81 seconds 
+still need around 389.59 mins to finish this session
+epo 714, test, loss=1.2524 acc=0.6603
+best epoch 693, best test acc=68.567
+This epoch takes 81 seconds 
+still need around 387.07 mins to finish this session
+epo 715, test, loss=1.1616 acc=0.6817
+best epoch 693, best test acc=68.567
+This epoch takes 81 seconds 
+still need around 389.02 mins to finish this session
+epo 716, test, loss=1.1702 acc=0.6850
+best epoch 693, best test acc=68.567
+This epoch takes 82 seconds 
+still need around 391.25 mins to finish this session
+epo 717, test, loss=1.1907 acc=0.6730
+best epoch 693, best test acc=68.567
+This epoch takes 80 seconds 
+still need around 378.24 mins to finish this session
+epo 718, test, loss=1.1953 acc=0.6783
+best epoch 693, best test acc=68.567
+This epoch takes 82 seconds 
+still need around 386.20 mins to finish this session
+epo 719, test, loss=1.1728 acc=0.6755
+best epoch 693, best test acc=68.567
+This epoch takes 81 seconds 
+still need around 383.19 mins to finish this session
+epo 720, test, loss=1.1496 acc=0.6870
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 720, best test acc=68.700
+This epoch takes 81 seconds 
+still need around 380.15 mins to finish this session
+epo 721, test, loss=1.2289 acc=0.6650
+best epoch 720, best test acc=68.700
+This epoch takes 82 seconds 
+still need around 382.43 mins to finish this session
+epo 722, test, loss=1.2658 acc=0.6633
+best epoch 720, best test acc=68.700
+This epoch takes 81 seconds 
+still need around 376.13 mins to finish this session
+epo 723, test, loss=1.1681 acc=0.6785
+best epoch 720, best test acc=68.700
+This epoch takes 81 seconds 
+still need around 374.98 mins to finish this session
+epo 724, test, loss=1.1935 acc=0.6747
+best epoch 720, best test acc=68.700
+This epoch takes 82 seconds 
+still need around 380.26 mins to finish this session
+epo 725, test, loss=1.1488 acc=0.6895
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 725, best test acc=68.950
+This epoch takes 81 seconds 
+still need around 374.99 mins to finish this session
+epo 726, test, loss=1.1705 acc=0.6872
+best epoch 725, best test acc=68.950
+This epoch takes 80 seconds 
+still need around 368.48 mins to finish this session
+epo 727, test, loss=1.1885 acc=0.6785
+best epoch 725, best test acc=68.950
+This epoch takes 79 seconds 
+still need around 361.80 mins to finish this session
+epo 728, test, loss=1.2283 acc=0.6718
+best epoch 725, best test acc=68.950
+This epoch takes 82 seconds 
+still need around 375.72 mins to finish this session
+epo 729, test, loss=1.1657 acc=0.6837
+best epoch 725, best test acc=68.950
+This epoch takes 82 seconds 
+still need around 374.14 mins to finish this session
+epo 730, test, loss=1.2044 acc=0.6785
+best epoch 725, best test acc=68.950
+This epoch takes 78 seconds 
+still need around 353.12 mins to finish this session
+epo 731, test, loss=1.1603 acc=0.6865
+best epoch 725, best test acc=68.950
+This epoch takes 79 seconds 
+still need around 354.40 mins to finish this session
+epo 732, test, loss=1.2044 acc=0.6768
+best epoch 725, best test acc=68.950
+This epoch takes 81 seconds 
+still need around 362.09 mins to finish this session
+epo 733, test, loss=1.1525 acc=0.6908
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 733, best test acc=69.083
+This epoch takes 79 seconds 
+still need around 352.88 mins to finish this session
+epo 734, test, loss=1.1736 acc=0.6775
+best epoch 733, best test acc=69.083
+This epoch takes 79 seconds 
+still need around 353.93 mins to finish this session
+epo 735, test, loss=1.1227 acc=0.6973
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 735, best test acc=69.733
+This epoch takes 81 seconds 
+still need around 360.49 mins to finish this session
+epo 736, test, loss=1.1604 acc=0.6875
+best epoch 735, best test acc=69.733
+This epoch takes 80 seconds 
+still need around 352.14 mins to finish this session
+epo 737, test, loss=1.1521 acc=0.6817
+best epoch 735, best test acc=69.733
+This epoch takes 79 seconds 
+still need around 348.31 mins to finish this session
+epo 738, test, loss=1.1582 acc=0.6863
+best epoch 735, best test acc=69.733
+This epoch takes 79 seconds 
+still need around 348.87 mins to finish this session
+epo 739, test, loss=1.1210 acc=0.6932
+best epoch 735, best test acc=69.733
+This epoch takes 81 seconds 
+still need around 356.51 mins to finish this session
+epo 740, test, loss=1.1146 acc=0.6993
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 347.55 mins to finish this session
+epo 741, test, loss=1.1703 acc=0.6827
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 347.82 mins to finish this session
+epo 742, test, loss=1.1764 acc=0.6803
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 347.38 mins to finish this session
+epo 743, test, loss=1.1760 acc=0.6797
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 345.03 mins to finish this session
+epo 744, test, loss=1.1858 acc=0.6757
+best epoch 740, best test acc=69.933
+This epoch takes 78 seconds 
+still need around 336.75 mins to finish this session
+epo 745, test, loss=1.1459 acc=0.6880
+best epoch 740, best test acc=69.933
+This epoch takes 81 seconds 
+still need around 346.63 mins to finish this session
+epo 746, test, loss=1.1421 acc=0.6893
+best epoch 740, best test acc=69.933
+This epoch takes 82 seconds 
+still need around 351.05 mins to finish this session
+epo 747, test, loss=1.1834 acc=0.6798
+best epoch 740, best test acc=69.933
+This epoch takes 81 seconds 
+still need around 342.80 mins to finish this session
+epo 748, test, loss=1.1553 acc=0.6815
+best epoch 740, best test acc=69.933
+This epoch takes 79 seconds 
+still need around 332.70 mins to finish this session
+epo 749, test, loss=1.1337 acc=0.6865
+best epoch 740, best test acc=69.933
+This epoch takes 81 seconds 
+still need around 341.53 mins to finish this session
+epo 750, test, loss=1.1907 acc=0.6780
+best epoch 740, best test acc=69.933
+This epoch takes 81 seconds 
+still need around 338.93 mins to finish this session
+epo 751, test, loss=1.1619 acc=0.6867
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 335.38 mins to finish this session
+epo 752, test, loss=1.1521 acc=0.6855
+best epoch 740, best test acc=69.933
+This epoch takes 78 seconds 
+still need around 326.06 mins to finish this session
+epo 753, test, loss=1.1677 acc=0.6863
+best epoch 740, best test acc=69.933
+This epoch takes 82 seconds 
+still need around 341.34 mins to finish this session
+epo 754, test, loss=1.1305 acc=0.6960
+best epoch 740, best test acc=69.933
+This epoch takes 78 seconds 
+still need around 322.94 mins to finish this session
+epo 755, test, loss=1.1399 acc=0.6855
+best epoch 740, best test acc=69.933
+This epoch takes 79 seconds 
+still need around 325.13 mins to finish this session
+epo 756, test, loss=1.2088 acc=0.6723
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 329.25 mins to finish this session
+epo 757, test, loss=1.1285 acc=0.6910
+best epoch 740, best test acc=69.933
+This epoch takes 83 seconds 
+still need around 337.78 mins to finish this session
+epo 758, test, loss=1.1454 acc=0.6903
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 324.69 mins to finish this session
+epo 759, test, loss=1.1593 acc=0.6883
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 324.70 mins to finish this session
+epo 760, test, loss=1.0998 acc=0.6987
+best epoch 740, best test acc=69.933
+This epoch takes 81 seconds 
+still need around 325.64 mins to finish this session
+epo 761, test, loss=1.1301 acc=0.6972
+best epoch 740, best test acc=69.933
+This epoch takes 82 seconds 
+still need around 328.10 mins to finish this session
+epo 762, test, loss=1.1297 acc=0.6935
+best epoch 740, best test acc=69.933
+This epoch takes 81 seconds 
+still need around 324.55 mins to finish this session
+epo 763, test, loss=1.1363 acc=0.6940
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 316.60 mins to finish this session
+epo 764, test, loss=1.1478 acc=0.6927
+best epoch 740, best test acc=69.933
+This epoch takes 81 seconds 
+still need around 320.52 mins to finish this session
+epo 765, test, loss=1.1938 acc=0.6837
+best epoch 740, best test acc=69.933
+This epoch takes 83 seconds 
+still need around 325.08 mins to finish this session
+epo 766, test, loss=1.1279 acc=0.6975
+best epoch 740, best test acc=69.933
+This epoch takes 82 seconds 
+still need around 321.06 mins to finish this session
+epo 767, test, loss=1.1903 acc=0.6795
+best epoch 740, best test acc=69.933
+This epoch takes 81 seconds 
+still need around 315.91 mins to finish this session
+epo 768, test, loss=1.1952 acc=0.6810
+best epoch 740, best test acc=69.933
+This epoch takes 81 seconds 
+still need around 313.90 mins to finish this session
+epo 769, test, loss=1.1653 acc=0.6885
+best epoch 740, best test acc=69.933
+This epoch takes 82 seconds 
+still need around 318.23 mins to finish this session
+epo 770, test, loss=1.1438 acc=0.6952
+best epoch 740, best test acc=69.933
+This epoch takes 80 seconds 
+still need around 309.65 mins to finish this session
+epo 771, test, loss=1.1140 acc=0.7022
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 771, best test acc=70.217
+This epoch takes 81 seconds 
+still need around 312.40 mins to finish this session
+epo 772, test, loss=1.1648 acc=0.6900
+best epoch 771, best test acc=70.217
+This epoch takes 80 seconds 
+still need around 306.22 mins to finish this session
+epo 773, test, loss=1.1168 acc=0.6993
+best epoch 771, best test acc=70.217
+This epoch takes 81 seconds 
+still need around 310.01 mins to finish this session
+epo 774, test, loss=1.1293 acc=0.6973
+best epoch 771, best test acc=70.217
+This epoch takes 83 seconds 
+still need around 316.29 mins to finish this session
+epo 775, test, loss=1.1363 acc=0.6960
+best epoch 771, best test acc=70.217
+This epoch takes 80 seconds 
+still need around 303.15 mins to finish this session
+epo 776, test, loss=1.1125 acc=0.6993
+best epoch 771, best test acc=70.217
+This epoch takes 81 seconds 
+still need around 303.53 mins to finish this session
+epo 777, test, loss=1.1471 acc=0.6893
+best epoch 771, best test acc=70.217
+This epoch takes 82 seconds 
+still need around 305.21 mins to finish this session
+epo 778, test, loss=1.1247 acc=0.6982
+best epoch 771, best test acc=70.217
+This epoch takes 81 seconds 
+still need around 301.87 mins to finish this session
+epo 779, test, loss=1.1649 acc=0.6898
+best epoch 771, best test acc=70.217
+This epoch takes 82 seconds 
+still need around 304.57 mins to finish this session
+epo 780, test, loss=1.1434 acc=0.6902
+best epoch 771, best test acc=70.217
+This epoch takes 81 seconds 
+still need around 297.85 mins to finish this session
+epo 781, test, loss=1.1483 acc=0.6915
+best epoch 771, best test acc=70.217
+This epoch takes 80 seconds 
+still need around 293.20 mins to finish this session
+epo 782, test, loss=1.1175 acc=0.7027
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 782, best test acc=70.267
+This epoch takes 81 seconds 
+still need around 294.62 mins to finish this session
+epo 783, test, loss=1.1309 acc=0.6992
+best epoch 782, best test acc=70.267
+This epoch takes 83 seconds 
+still need around 301.57 mins to finish this session
+epo 784, test, loss=1.1413 acc=0.6943
+best epoch 782, best test acc=70.267
+This epoch takes 82 seconds 
+still need around 297.99 mins to finish this session
+epo 785, test, loss=1.1272 acc=0.6987
+best epoch 782, best test acc=70.267
+This epoch takes 79 seconds 
+still need around 283.49 mins to finish this session
+epo 786, test, loss=1.0987 acc=0.7013
+best epoch 782, best test acc=70.267
+This epoch takes 80 seconds 
+still need around 287.10 mins to finish this session
+epo 787, test, loss=1.0759 acc=0.7153
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 787, best test acc=71.533
+This epoch takes 84 seconds 
+still need around 299.76 mins to finish this session
+epo 788, test, loss=1.1140 acc=0.7045
+best epoch 787, best test acc=71.533
+This epoch takes 82 seconds 
+still need around 293.15 mins to finish this session
+epo 789, test, loss=1.1384 acc=0.6928
+best epoch 787, best test acc=71.533
+This epoch takes 78 seconds 
+still need around 276.32 mins to finish this session
+epo 790, test, loss=1.1212 acc=0.6973
+best epoch 787, best test acc=71.533
+This epoch takes 80 seconds 
+still need around 280.98 mins to finish this session
+epo 791, test, loss=1.1511 acc=0.6943
+best epoch 787, best test acc=71.533
+This epoch takes 81 seconds 
+still need around 283.43 mins to finish this session
+epo 792, test, loss=1.0635 acc=0.7140
+best epoch 787, best test acc=71.533
+This epoch takes 82 seconds 
+still need around 287.21 mins to finish this session
+epo 793, test, loss=1.1786 acc=0.6890
+best epoch 787, best test acc=71.533
+This epoch takes 79 seconds 
+still need around 275.45 mins to finish this session
+epo 794, test, loss=1.0802 acc=0.7063
+best epoch 787, best test acc=71.533
+This epoch takes 80 seconds 
+still need around 276.74 mins to finish this session
+epo 795, test, loss=1.1305 acc=0.6942
+best epoch 787, best test acc=71.533
+This epoch takes 81 seconds 
+still need around 278.88 mins to finish this session
+epo 796, test, loss=1.1332 acc=0.6980
+best epoch 787, best test acc=71.533
+This epoch takes 81 seconds 
+still need around 276.49 mins to finish this session
+epo 797, test, loss=1.0848 acc=0.7050
+best epoch 787, best test acc=71.533
+This epoch takes 79 seconds 
+still need around 269.80 mins to finish this session
+epo 798, test, loss=1.0495 acc=0.7173
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 798, best test acc=71.733
+This epoch takes 83 seconds 
+still need around 280.40 mins to finish this session
+epo 799, test, loss=1.0787 acc=0.7125
+best epoch 798, best test acc=71.733
+This epoch takes 82 seconds 
+still need around 275.41 mins to finish this session
+epo 800, test, loss=1.1200 acc=0.6983
+best epoch 798, best test acc=71.733
+This epoch takes 78 seconds 
+still need around 262.49 mins to finish this session
+epo 801, test, loss=1.1365 acc=0.6925
+best epoch 798, best test acc=71.733
+This epoch takes 77 seconds 
+still need around 258.09 mins to finish this session
+epo 802, test, loss=1.1365 acc=0.6992
+best epoch 798, best test acc=71.733
+This epoch takes 83 seconds 
+still need around 274.90 mins to finish this session
+epo 803, test, loss=1.0930 acc=0.7092
+best epoch 798, best test acc=71.733
+This epoch takes 82 seconds 
+still need around 269.70 mins to finish this session
+epo 804, test, loss=1.0777 acc=0.7097
+best epoch 798, best test acc=71.733
+This epoch takes 77 seconds 
+still need around 252.44 mins to finish this session
+epo 805, test, loss=1.0790 acc=0.7127
+best epoch 798, best test acc=71.733
+This epoch takes 80 seconds 
+still need around 262.70 mins to finish this session
+epo 806, test, loss=1.0851 acc=0.7088
+best epoch 798, best test acc=71.733
+This epoch takes 82 seconds 
+still need around 265.62 mins to finish this session
+epo 807, test, loss=1.0778 acc=0.7115
+best epoch 798, best test acc=71.733
+This epoch takes 81 seconds 
+still need around 262.05 mins to finish this session
+epo 808, test, loss=1.1364 acc=0.7003
+best epoch 798, best test acc=71.733
+This epoch takes 79 seconds 
+still need around 253.06 mins to finish this session
+epo 809, test, loss=1.0817 acc=0.7125
+best epoch 798, best test acc=71.733
+This epoch takes 82 seconds 
+still need around 262.04 mins to finish this session
+epo 810, test, loss=1.1299 acc=0.7003
+best epoch 798, best test acc=71.733
+This epoch takes 81 seconds 
+still need around 258.66 mins to finish this session
+epo 811, test, loss=1.0648 acc=0.7162
+best epoch 798, best test acc=71.733
+This epoch takes 81 seconds 
+still need around 255.19 mins to finish this session
+epo 812, test, loss=1.0814 acc=0.7105
+best epoch 798, best test acc=71.733
+This epoch takes 80 seconds 
+still need around 253.08 mins to finish this session
+epo 813, test, loss=1.0877 acc=0.7103
+best epoch 798, best test acc=71.733
+This epoch takes 81 seconds 
+still need around 253.33 mins to finish this session
+epo 814, test, loss=1.0633 acc=0.7168
+best epoch 798, best test acc=71.733
+This epoch takes 83 seconds 
+still need around 257.58 mins to finish this session
+epo 815, test, loss=1.0980 acc=0.7113
+best epoch 798, best test acc=71.733
+This epoch takes 80 seconds 
+still need around 249.25 mins to finish this session
+epo 816, test, loss=1.0902 acc=0.7057
+best epoch 798, best test acc=71.733
+This epoch takes 80 seconds 
+still need around 245.49 mins to finish this session
+epo 817, test, loss=1.1198 acc=0.7020
+best epoch 798, best test acc=71.733
+This epoch takes 82 seconds 
+still need around 250.82 mins to finish this session
+epo 818, test, loss=1.0858 acc=0.7113
+best epoch 798, best test acc=71.733
+This epoch takes 83 seconds 
+still need around 251.77 mins to finish this session
+epo 819, test, loss=1.0339 acc=0.7228
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 819, best test acc=72.283
+This epoch takes 81 seconds 
+still need around 245.62 mins to finish this session
+epo 820, test, loss=1.0880 acc=0.7117
+best epoch 819, best test acc=72.283
+This epoch takes 78 seconds 
+still need around 236.43 mins to finish this session
+epo 821, test, loss=1.1004 acc=0.7095
+best epoch 819, best test acc=72.283
+This epoch takes 80 seconds 
+still need around 240.81 mins to finish this session
+epo 822, test, loss=1.0382 acc=0.7188
+best epoch 819, best test acc=72.283
+This epoch takes 83 seconds 
+still need around 246.36 mins to finish this session
+epo 823, test, loss=1.0675 acc=0.7153
+best epoch 819, best test acc=72.283
+This epoch takes 83 seconds 
+still need around 246.28 mins to finish this session
+epo 824, test, loss=1.0956 acc=0.7133
+best epoch 819, best test acc=72.283
+This epoch takes 79 seconds 
+still need around 231.86 mins to finish this session
+epo 825, test, loss=1.0842 acc=0.7112
+best epoch 819, best test acc=72.283
+This epoch takes 80 seconds 
+still need around 235.16 mins to finish this session
+epo 826, test, loss=1.0661 acc=0.7138
+best epoch 819, best test acc=72.283
+This epoch takes 82 seconds 
+still need around 238.54 mins to finish this session
+epo 827, test, loss=1.0808 acc=0.7182
+best epoch 819, best test acc=72.283
+This epoch takes 80 seconds 
+still need around 232.83 mins to finish this session
+epo 828, test, loss=1.0730 acc=0.7135
+best epoch 819, best test acc=72.283
+This epoch takes 78 seconds 
+still need around 226.02 mins to finish this session
+epo 829, test, loss=1.0555 acc=0.7212
+best epoch 819, best test acc=72.283
+This epoch takes 83 seconds 
+still need around 237.38 mins to finish this session
+epo 830, test, loss=1.0178 acc=0.7252
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 830, best test acc=72.517
+This epoch takes 81 seconds 
+still need around 230.82 mins to finish this session
+epo 831, test, loss=1.0768 acc=0.7180
+best epoch 830, best test acc=72.517
+This epoch takes 77 seconds 
+still need around 217.55 mins to finish this session
+epo 832, test, loss=1.0373 acc=0.7232
+best epoch 830, best test acc=72.517
+This epoch takes 80 seconds 
+still need around 226.29 mins to finish this session
+epo 833, test, loss=1.0785 acc=0.7162
+best epoch 830, best test acc=72.517
+This epoch takes 84 seconds 
+still need around 236.44 mins to finish this session
+epo 834, test, loss=1.0795 acc=0.7107
+best epoch 830, best test acc=72.517
+This epoch takes 81 seconds 
+still need around 224.93 mins to finish this session
+epo 835, test, loss=1.0777 acc=0.7163
+best epoch 830, best test acc=72.517
+This epoch takes 77 seconds 
+still need around 213.87 mins to finish this session
+epo 836, test, loss=1.0654 acc=0.7173
+best epoch 830, best test acc=72.517
+This epoch takes 82 seconds 
+still need around 225.88 mins to finish this session
+epo 837, test, loss=1.0845 acc=0.7197
+best epoch 830, best test acc=72.517
+This epoch takes 82 seconds 
+still need around 223.93 mins to finish this session
+epo 838, test, loss=1.0801 acc=0.7185
+best epoch 830, best test acc=72.517
+This epoch takes 80 seconds 
+still need around 217.38 mins to finish this session
+epo 839, test, loss=1.0570 acc=0.7247
+best epoch 830, best test acc=72.517
+This epoch takes 80 seconds 
+still need around 215.54 mins to finish this session
+epo 840, test, loss=1.0766 acc=0.7150
+best epoch 830, best test acc=72.517
+This epoch takes 81 seconds 
+still need around 216.60 mins to finish this session
+epo 841, test, loss=1.0847 acc=0.7195
+best epoch 830, best test acc=72.517
+This epoch takes 83 seconds 
+still need around 220.94 mins to finish this session
+epo 842, test, loss=1.0444 acc=0.7218
+best epoch 830, best test acc=72.517
+This epoch takes 82 seconds 
+still need around 216.53 mins to finish this session
+epo 843, test, loss=1.0377 acc=0.7312
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 843, best test acc=73.117
+This epoch takes 80 seconds 
+still need around 210.46 mins to finish this session
+epo 844, test, loss=1.0361 acc=0.7297
+best epoch 843, best test acc=73.117
+This epoch takes 82 seconds 
+still need around 213.75 mins to finish this session
+epo 845, test, loss=1.0644 acc=0.7220
+best epoch 843, best test acc=73.117
+This epoch takes 82 seconds 
+still need around 213.46 mins to finish this session
+epo 846, test, loss=1.0469 acc=0.7257
+best epoch 843, best test acc=73.117
+This epoch takes 81 seconds 
+still need around 208.19 mins to finish this session
+epo 847, test, loss=1.0537 acc=0.7255
+best epoch 843, best test acc=73.117
+This epoch takes 78 seconds 
+still need around 199.59 mins to finish this session
+epo 848, test, loss=1.0599 acc=0.7185
+best epoch 843, best test acc=73.117
+This epoch takes 82 seconds 
+still need around 208.18 mins to finish this session
+epo 849, test, loss=1.0523 acc=0.7187
+best epoch 843, best test acc=73.117
+This epoch takes 84 seconds 
+still need around 211.99 mins to finish this session
+epo 850, test, loss=1.0606 acc=0.7208
+best epoch 843, best test acc=73.117
+This epoch takes 81 seconds 
+still need around 204.25 mins to finish this session
+epo 851, test, loss=1.0526 acc=0.7235
+best epoch 843, best test acc=73.117
+This epoch takes 79 seconds 
+still need around 198.36 mins to finish this session
+epo 852, test, loss=1.0427 acc=0.7230
+best epoch 843, best test acc=73.117
+This epoch takes 80 seconds 
+still need around 199.42 mins to finish this session
+epo 853, test, loss=1.0380 acc=0.7302
+best epoch 843, best test acc=73.117
+This epoch takes 83 seconds 
+still need around 203.42 mins to finish this session
+epo 854, test, loss=1.0575 acc=0.7248
+best epoch 843, best test acc=73.117
+This epoch takes 83 seconds 
+still need around 202.83 mins to finish this session
+epo 855, test, loss=1.0241 acc=0.7303
+best epoch 843, best test acc=73.117
+This epoch takes 79 seconds 
+still need around 193.15 mins to finish this session
+epo 856, test, loss=1.0332 acc=0.7277
+best epoch 843, best test acc=73.117
+This epoch takes 80 seconds 
+still need around 192.96 mins to finish this session
+epo 857, test, loss=1.0112 acc=0.7285
+best epoch 843, best test acc=73.117
+This epoch takes 82 seconds 
+still need around 196.86 mins to finish this session
+epo 858, test, loss=1.0668 acc=0.7220
+best epoch 843, best test acc=73.117
+This epoch takes 79 seconds 
+still need around 189.29 mins to finish this session
+epo 859, test, loss=1.0434 acc=0.7288
+best epoch 843, best test acc=73.117
+This epoch takes 80 seconds 
+still need around 189.74 mins to finish this session
+epo 860, test, loss=1.0425 acc=0.7262
+best epoch 843, best test acc=73.117
+This epoch takes 83 seconds 
+still need around 194.30 mins to finish this session
+epo 861, test, loss=1.0329 acc=0.7325
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 861, best test acc=73.250
+This epoch takes 83 seconds 
+still need around 193.50 mins to finish this session
+epo 862, test, loss=1.0478 acc=0.7245
+best epoch 861, best test acc=73.250
+This epoch takes 81 seconds 
+still need around 186.85 mins to finish this session
+epo 863, test, loss=1.0459 acc=0.7297
+best epoch 861, best test acc=73.250
+This epoch takes 80 seconds 
+still need around 184.62 mins to finish this session
+epo 864, test, loss=1.0080 acc=0.7330
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 864, best test acc=73.300
+This epoch takes 83 seconds 
+still need around 188.64 mins to finish this session
+epo 865, test, loss=1.0098 acc=0.7308
+best epoch 864, best test acc=73.300
+This epoch takes 83 seconds 
+still need around 187.90 mins to finish this session
+epo 866, test, loss=1.0363 acc=0.7265
+best epoch 864, best test acc=73.300
+This epoch takes 82 seconds 
+still need around 185.10 mins to finish this session
+epo 867, test, loss=1.0271 acc=0.7303
+best epoch 864, best test acc=73.300
+This epoch takes 81 seconds 
+still need around 181.00 mins to finish this session
+epo 868, test, loss=1.0498 acc=0.7245
+best epoch 864, best test acc=73.300
+This epoch takes 80 seconds 
+still need around 176.68 mins to finish this session
+epo 869, test, loss=1.0444 acc=0.7280
+best epoch 864, best test acc=73.300
+This epoch takes 81 seconds 
+still need around 178.33 mins to finish this session
+epo 870, test, loss=1.0628 acc=0.7260
+best epoch 864, best test acc=73.300
+This epoch takes 81 seconds 
+still need around 176.13 mins to finish this session
+epo 871, test, loss=1.0534 acc=0.7297
+best epoch 864, best test acc=73.300
+This epoch takes 80 seconds 
+still need around 174.08 mins to finish this session
+epo 872, test, loss=1.0249 acc=0.7298
+best epoch 864, best test acc=73.300
+This epoch takes 81 seconds 
+still need around 174.41 mins to finish this session
+epo 873, test, loss=1.0699 acc=0.7247
+best epoch 864, best test acc=73.300
+This epoch takes 81 seconds 
+still need around 172.04 mins to finish this session
+epo 874, test, loss=1.0375 acc=0.7318
+best epoch 864, best test acc=73.300
+This epoch takes 82 seconds 
+still need around 174.22 mins to finish this session
+epo 875, test, loss=1.0479 acc=0.7273
+best epoch 864, best test acc=73.300
+This epoch takes 80 seconds 
+still need around 167.61 mins to finish this session
+epo 876, test, loss=1.0390 acc=0.7317
+best epoch 864, best test acc=73.300
+This epoch takes 80 seconds 
+still need around 167.15 mins to finish this session
+epo 877, test, loss=1.0717 acc=0.7245
+best epoch 864, best test acc=73.300
+This epoch takes 82 seconds 
+still need around 168.81 mins to finish this session
+epo 878, test, loss=1.0049 acc=0.7388
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 878, best test acc=73.883
+This epoch takes 81 seconds 
+still need around 166.44 mins to finish this session
+epo 879, test, loss=1.0589 acc=0.7288
+best epoch 878, best test acc=73.883
+This epoch takes 81 seconds 
+still need around 165.28 mins to finish this session
+epo 880, test, loss=1.0143 acc=0.7355
+best epoch 878, best test acc=73.883
+This epoch takes 79 seconds 
+still need around 158.50 mins to finish this session
+epo 881, test, loss=1.0053 acc=0.7398
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 881, best test acc=73.983
+This epoch takes 75 seconds 
+still need around 148.93 mins to finish this session
+epo 882, test, loss=1.0142 acc=0.7350
+best epoch 881, best test acc=73.983
+This epoch takes 76 seconds 
+still need around 150.22 mins to finish this session
+epo 883, test, loss=1.0111 acc=0.7368
+best epoch 881, best test acc=73.983
+This epoch takes 78 seconds 
+still need around 152.28 mins to finish this session
+epo 884, test, loss=1.0070 acc=0.7405
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 884, best test acc=74.050
+This epoch takes 76 seconds 
+still need around 148.65 mins to finish this session
+epo 885, test, loss=1.0520 acc=0.7250
+best epoch 884, best test acc=74.050
+This epoch takes 75 seconds 
+still need around 144.38 mins to finish this session
+epo 886, test, loss=0.9912 acc=0.7427
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 886, best test acc=74.267
+This epoch takes 77 seconds 
+still need around 147.92 mins to finish this session
+epo 887, test, loss=1.0161 acc=0.7367
+best epoch 886, best test acc=74.267
+This epoch takes 77 seconds 
+still need around 145.99 mins to finish this session
+epo 888, test, loss=1.0225 acc=0.7353
+best epoch 886, best test acc=74.267
+This epoch takes 75 seconds 
+still need around 140.49 mins to finish this session
+epo 889, test, loss=1.0025 acc=0.7383
+best epoch 886, best test acc=74.267
+This epoch takes 72 seconds 
+still need around 134.94 mins to finish this session
+epo 890, test, loss=0.9937 acc=0.7400
+best epoch 886, best test acc=74.267
+This epoch takes 73 seconds 
+still need around 135.66 mins to finish this session
+epo 891, test, loss=1.0441 acc=0.7325
+best epoch 886, best test acc=74.267
+This epoch takes 73 seconds 
+still need around 134.11 mins to finish this session
+epo 892, test, loss=0.9948 acc=0.7475
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 892, best test acc=74.750
+This epoch takes 71 seconds 
+still need around 128.71 mins to finish this session
+epo 893, test, loss=1.0211 acc=0.7342
+best epoch 892, best test acc=74.750
+This epoch takes 69 seconds 
+still need around 124.23 mins to finish this session
+epo 894, test, loss=0.9983 acc=0.7380
+best epoch 892, best test acc=74.750
+This epoch takes 70 seconds 
+still need around 124.84 mins to finish this session
+epo 895, test, loss=0.9907 acc=0.7428
+best epoch 892, best test acc=74.750
+This epoch takes 69 seconds 
+still need around 122.43 mins to finish this session
+epo 896, test, loss=1.0121 acc=0.7445
+best epoch 892, best test acc=74.750
+This epoch takes 70 seconds 
+still need around 121.37 mins to finish this session
+epo 897, test, loss=1.0216 acc=0.7360
+best epoch 892, best test acc=74.750
+This epoch takes 70 seconds 
+still need around 120.76 mins to finish this session
+epo 898, test, loss=0.9850 acc=0.7440
+best epoch 892, best test acc=74.750
+This epoch takes 70 seconds 
+still need around 120.60 mins to finish this session
+epo 899, test, loss=0.9831 acc=0.7432
+best epoch 892, best test acc=74.750
+This epoch takes 69 seconds 
+still need around 117.82 mins to finish this session
+epo 900, test, loss=1.0011 acc=0.7430
+best epoch 892, best test acc=74.750
+This epoch takes 71 seconds 
+still need around 118.63 mins to finish this session
+epo 901, test, loss=1.0057 acc=0.7422
+best epoch 892, best test acc=74.750
+This epoch takes 71 seconds 
+still need around 118.31 mins to finish this session
+epo 902, test, loss=0.9818 acc=0.7457
+best epoch 892, best test acc=74.750
+This epoch takes 71 seconds 
+still need around 116.22 mins to finish this session
+epo 903, test, loss=0.9918 acc=0.7433
+best epoch 892, best test acc=74.750
+This epoch takes 70 seconds 
+still need around 113.89 mins to finish this session
+epo 904, test, loss=0.9947 acc=0.7448
+best epoch 892, best test acc=74.750
+This epoch takes 69 seconds 
+still need around 111.47 mins to finish this session
+epo 905, test, loss=1.0078 acc=0.7435
+best epoch 892, best test acc=74.750
+This epoch takes 70 seconds 
+still need around 112.04 mins to finish this session
+epo 906, test, loss=0.9991 acc=0.7443
+best epoch 892, best test acc=74.750
+This epoch takes 70 seconds 
+still need around 110.99 mins to finish this session
+epo 907, test, loss=1.0057 acc=0.7468
+best epoch 892, best test acc=74.750
+This epoch takes 70 seconds 
+still need around 109.09 mins to finish this session
+epo 908, test, loss=0.9771 acc=0.7488
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 908, best test acc=74.883
+This epoch takes 70 seconds 
+still need around 108.13 mins to finish this session
+epo 909, test, loss=0.9840 acc=0.7420
+best epoch 908, best test acc=74.883
+This epoch takes 69 seconds 
+still need around 104.85 mins to finish this session
+epo 910, test, loss=1.0066 acc=0.7428
+best epoch 908, best test acc=74.883
+This epoch takes 69 seconds 
+still need around 103.82 mins to finish this session
+epo 911, test, loss=0.9820 acc=0.7468
+best epoch 908, best test acc=74.883
+This epoch takes 69 seconds 
+still need around 103.03 mins to finish this session
+epo 912, test, loss=0.9691 acc=0.7505
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 912, best test acc=75.050
+This epoch takes 68 seconds 
+still need around 100.31 mins to finish this session
+epo 913, test, loss=0.9846 acc=0.7450
+best epoch 912, best test acc=75.050
+This epoch takes 68 seconds 
+still need around 99.65 mins to finish this session
+epo 914, test, loss=1.0016 acc=0.7430
+best epoch 912, best test acc=75.050
+This epoch takes 68 seconds 
+still need around 98.53 mins to finish this session
+epo 915, test, loss=1.0067 acc=0.7440
+best epoch 912, best test acc=75.050
+This epoch takes 69 seconds 
+still need around 98.32 mins to finish this session
+epo 916, test, loss=1.0001 acc=0.7420
+best epoch 912, best test acc=75.050
+This epoch takes 68 seconds 
+still need around 95.66 mins to finish this session
+epo 917, test, loss=0.9967 acc=0.7443
+best epoch 912, best test acc=75.050
+This epoch takes 67 seconds 
+still need around 93.53 mins to finish this session
+epo 918, test, loss=0.9888 acc=0.7440
+best epoch 912, best test acc=75.050
+This epoch takes 68 seconds 
+still need around 93.17 mins to finish this session
+epo 919, test, loss=0.9867 acc=0.7482
+best epoch 912, best test acc=75.050
+This epoch takes 68 seconds 
+still need around 92.11 mins to finish this session
+epo 920, test, loss=0.9993 acc=0.7458
+best epoch 912, best test acc=75.050
+This epoch takes 67 seconds 
+still need around 90.64 mins to finish this session
+epo 921, test, loss=0.9755 acc=0.7480
+best epoch 912, best test acc=75.050
+This epoch takes 67 seconds 
+still need around 88.52 mins to finish this session
+epo 922, test, loss=0.9995 acc=0.7402
+best epoch 912, best test acc=75.050
+This epoch takes 67 seconds 
+still need around 87.46 mins to finish this session
+epo 923, test, loss=0.9749 acc=0.7443
+best epoch 912, best test acc=75.050
+This epoch takes 68 seconds 
+still need around 88.00 mins to finish this session
+epo 924, test, loss=0.9677 acc=0.7517
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 924, best test acc=75.167
+This epoch takes 67 seconds 
+still need around 85.86 mins to finish this session
+epo 925, test, loss=0.9849 acc=0.7440
+best epoch 924, best test acc=75.167
+This epoch takes 68 seconds 
+still need around 86.20 mins to finish this session
+epo 926, test, loss=0.9841 acc=0.7493
+best epoch 924, best test acc=75.167
+This epoch takes 66 seconds 
+still need around 81.66 mins to finish this session
+epo 927, test, loss=0.9838 acc=0.7480
+best epoch 924, best test acc=75.167
+This epoch takes 67 seconds 
+still need around 82.45 mins to finish this session
+epo 928, test, loss=0.9740 acc=0.7473
+best epoch 924, best test acc=75.167
+This epoch takes 67 seconds 
+still need around 80.53 mins to finish this session
+epo 929, test, loss=0.9713 acc=0.7500
+best epoch 924, best test acc=75.167
+This epoch takes 66 seconds 
+still need around 79.24 mins to finish this session
+epo 930, test, loss=0.9742 acc=0.7490
+best epoch 924, best test acc=75.167
+This epoch takes 67 seconds 
+still need around 78.96 mins to finish this session
+epo 931, test, loss=0.9907 acc=0.7470
+best epoch 924, best test acc=75.167
+This epoch takes 67 seconds 
+still need around 77.66 mins to finish this session
+epo 932, test, loss=1.0000 acc=0.7452
+best epoch 924, best test acc=75.167
+This epoch takes 67 seconds 
+still need around 76.23 mins to finish this session
+epo 933, test, loss=0.9841 acc=0.7507
+best epoch 924, best test acc=75.167
+This epoch takes 67 seconds 
+still need around 75.44 mins to finish this session
+epo 934, test, loss=0.9571 acc=0.7545
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 934, best test acc=75.450
+This epoch takes 68 seconds 
+still need around 75.10 mins to finish this session
+epo 935, test, loss=0.9966 acc=0.7437
+best epoch 934, best test acc=75.450
+This epoch takes 67 seconds 
+still need around 72.82 mins to finish this session
+epo 936, test, loss=0.9917 acc=0.7447
+best epoch 934, best test acc=75.450
+This epoch takes 66 seconds 
+still need around 71.21 mins to finish this session
+epo 937, test, loss=0.9971 acc=0.7438
+best epoch 934, best test acc=75.450
+This epoch takes 67 seconds 
+still need around 70.46 mins to finish this session
+epo 938, test, loss=0.9831 acc=0.7490
+best epoch 934, best test acc=75.450
+This epoch takes 67 seconds 
+still need around 70.13 mins to finish this session
+epo 939, test, loss=0.9932 acc=0.7465
+best epoch 934, best test acc=75.450
+This epoch takes 67 seconds 
+still need around 69.10 mins to finish this session
+epo 940, test, loss=1.0047 acc=0.7488
+best epoch 934, best test acc=75.450
+This epoch takes 66 seconds 
+still need around 66.50 mins to finish this session
+epo 941, test, loss=0.9786 acc=0.7508
+best epoch 934, best test acc=75.450
+This epoch takes 67 seconds 
+still need around 66.47 mins to finish this session
+epo 942, test, loss=0.9827 acc=0.7522
+best epoch 934, best test acc=75.450
+This epoch takes 68 seconds 
+still need around 65.82 mins to finish this session
+epo 943, test, loss=0.9703 acc=0.7538
+best epoch 934, best test acc=75.450
+This epoch takes 66 seconds 
+still need around 63.65 mins to finish this session
+epo 944, test, loss=0.9849 acc=0.7515
+best epoch 934, best test acc=75.450
+This epoch takes 66 seconds 
+still need around 62.17 mins to finish this session
+epo 945, test, loss=0.9756 acc=0.7508
+best epoch 934, best test acc=75.450
+This epoch takes 68 seconds 
+still need around 62.49 mins to finish this session
+epo 946, test, loss=0.9689 acc=0.7550
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 946, best test acc=75.500
+This epoch takes 67 seconds 
+still need around 60.99 mins to finish this session
+epo 947, test, loss=0.9641 acc=0.7548
+best epoch 946, best test acc=75.500
+This epoch takes 68 seconds 
+still need around 60.30 mins to finish this session
+epo 948, test, loss=0.9537 acc=0.7562
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 948, best test acc=75.617
+This epoch takes 67 seconds 
+still need around 58.36 mins to finish this session
+epo 949, test, loss=0.9549 acc=0.7607
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 949, best test acc=76.067
+This epoch takes 67 seconds 
+still need around 57.76 mins to finish this session
+epo 950, test, loss=0.9741 acc=0.7545
+best epoch 949, best test acc=76.067
+This epoch takes 68 seconds 
+still need around 56.94 mins to finish this session
+epo 951, test, loss=0.9880 acc=0.7525
+best epoch 949, best test acc=76.067
+This epoch takes 67 seconds 
+still need around 54.95 mins to finish this session
+epo 952, test, loss=0.9644 acc=0.7550
+best epoch 949, best test acc=76.067
+This epoch takes 67 seconds 
+still need around 53.88 mins to finish this session
+epo 953, test, loss=0.9555 acc=0.7547
+best epoch 949, best test acc=76.067
+This epoch takes 67 seconds 
+still need around 53.18 mins to finish this session
+epo 954, test, loss=0.9739 acc=0.7538
+best epoch 949, best test acc=76.067
+This epoch takes 67 seconds 
+still need around 51.54 mins to finish this session
+epo 955, test, loss=0.9564 acc=0.7565
+best epoch 949, best test acc=76.067
+This epoch takes 67 seconds 
+still need around 50.50 mins to finish this session
+epo 956, test, loss=0.9590 acc=0.7568
+best epoch 949, best test acc=76.067
+This epoch takes 63 seconds 
+still need around 46.36 mins to finish this session
+epo 957, test, loss=0.9699 acc=0.7567
+best epoch 949, best test acc=76.067
+This epoch takes 57 seconds 
+still need around 40.95 mins to finish this session
+epo 958, test, loss=0.9551 acc=0.7605
+best epoch 949, best test acc=76.067
+This epoch takes 53 seconds 
+still need around 37.27 mins to finish this session
+epo 959, test, loss=0.9571 acc=0.7557
+best epoch 949, best test acc=76.067
+This epoch takes 66 seconds 
+still need around 45.59 mins to finish this session
+epo 960, test, loss=0.9502 acc=0.7602
+best epoch 949, best test acc=76.067
+This epoch takes 66 seconds 
+still need around 44.47 mins to finish this session
+epo 961, test, loss=0.9608 acc=0.7587
+best epoch 949, best test acc=76.067
+This epoch takes 67 seconds 
+still need around 43.70 mins to finish this session
+epo 962, test, loss=0.9592 acc=0.7517
+best epoch 949, best test acc=76.067
+This epoch takes 67 seconds 
+still need around 42.68 mins to finish this session
+epo 963, test, loss=0.9584 acc=0.7595
+best epoch 949, best test acc=76.067
+This epoch takes 69 seconds 
+still need around 42.60 mins to finish this session
+epo 964, test, loss=0.9613 acc=0.7565
+best epoch 949, best test acc=76.067
+This epoch takes 67 seconds 
+still need around 40.43 mins to finish this session
+epo 965, test, loss=0.9618 acc=0.7557
+best epoch 949, best test acc=76.067
+This epoch takes 68 seconds 
+still need around 39.74 mins to finish this session
+epo 966, test, loss=0.9463 acc=0.7638
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 966, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 38.39 mins to finish this session
+epo 967, test, loss=0.9551 acc=0.7615
+best epoch 966, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 37.11 mins to finish this session
+epo 968, test, loss=0.9493 acc=0.7615
+best epoch 966, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 36.64 mins to finish this session
+epo 969, test, loss=0.9577 acc=0.7582
+best epoch 966, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 35.39 mins to finish this session
+epo 970, test, loss=0.9539 acc=0.7585
+best epoch 966, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 33.66 mins to finish this session
+epo 971, test, loss=0.9713 acc=0.7530
+best epoch 966, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 33.09 mins to finish this session
+epo 972, test, loss=0.9563 acc=0.7567
+best epoch 966, best test acc=76.383
+This epoch takes 66 seconds 
+still need around 31.04 mins to finish this session
+epo 973, test, loss=0.9498 acc=0.7623
+best epoch 966, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 30.58 mins to finish this session
+epo 974, test, loss=0.9649 acc=0.7603
+best epoch 966, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 29.05 mins to finish this session
+epo 975, test, loss=0.9655 acc=0.7532
+best epoch 966, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 28.66 mins to finish this session
+epo 976, test, loss=0.9538 acc=0.7622
+best epoch 966, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 27.00 mins to finish this session
+epo 977, test, loss=0.9498 acc=0.7638
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 977, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 26.44 mins to finish this session
+epo 978, test, loss=0.9623 acc=0.7607
+best epoch 977, best test acc=76.383
+This epoch takes 66 seconds 
+still need around 24.28 mins to finish this session
+epo 979, test, loss=0.9505 acc=0.7613
+best epoch 977, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 23.48 mins to finish this session
+epo 980, test, loss=0.9584 acc=0.7582
+best epoch 977, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 22.33 mins to finish this session
+epo 981, test, loss=0.9545 acc=0.7602
+best epoch 977, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 21.33 mins to finish this session
+epo 982, test, loss=0.9580 acc=0.7597
+best epoch 977, best test acc=76.383
+This epoch takes 66 seconds 
+still need around 20.08 mins to finish this session
+epo 983, test, loss=0.9569 acc=0.7598
+best epoch 977, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 19.02 mins to finish this session
+epo 984, test, loss=0.9447 acc=0.7637
+best epoch 977, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 18.16 mins to finish this session
+epo 985, test, loss=0.9523 acc=0.7638
+********A better model is found!!**********
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+best epoch 985, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 16.94 mins to finish this session
+epo 986, test, loss=0.9635 acc=0.7587
+best epoch 985, best test acc=76.383
+This epoch takes 66 seconds 
+still need around 15.46 mins to finish this session
+epo 987, test, loss=0.9403 acc=0.7618
+best epoch 985, best test acc=76.383
+This epoch takes 66 seconds 
+still need around 14.50 mins to finish this session
+epo 988, test, loss=0.9493 acc=0.7600
+best epoch 985, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 13.62 mins to finish this session
+epo 989, test, loss=0.9505 acc=0.7607
+best epoch 985, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 12.35 mins to finish this session
+epo 990, test, loss=0.9430 acc=0.7625
+best epoch 985, best test acc=76.383
+This epoch takes 66 seconds 
+still need around 11.01 mins to finish this session
+epo 991, test, loss=0.9518 acc=0.7603
+best epoch 985, best test acc=76.383
+This epoch takes 65 seconds 
+still need around 9.86 mins to finish this session
+epo 992, test, loss=0.9483 acc=0.7623
+best epoch 985, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 9.15 mins to finish this session
+epo 993, test, loss=0.9485 acc=0.7597
+best epoch 985, best test acc=76.383
+This epoch takes 66 seconds 
+still need around 7.81 mins to finish this session
+epo 994, test, loss=0.9517 acc=0.7590
+best epoch 985, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 6.89 mins to finish this session
+epo 995, test, loss=0.9461 acc=0.7633
+best epoch 985, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 5.59 mins to finish this session
+epo 996, test, loss=0.9558 acc=0.7613
+best epoch 985, best test acc=76.383
+This epoch takes 68 seconds 
+still need around 4.56 mins to finish this session
+epo 997, test, loss=0.9516 acc=0.7587
+best epoch 985, best test acc=76.383
+This epoch takes 66 seconds 
+still need around 3.32 mins to finish this session
+epo 998, test, loss=0.9635 acc=0.7603
+best epoch 985, best test acc=76.383
+This epoch takes 67 seconds 
+still need around 2.27 mins to finish this session
+epo 999, test, loss=0.9458 acc=0.7630
+best epoch 985, best test acc=76.383
+This epoch takes 65 seconds 
+still need around 1.10 mins to finish this session
+Replace the fc with average embedding, and save it to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session0_max_acc.pth
+epo 0, test, loss=0.9398 acc=0.7660
+The new best test acc of base session=76.600
+training session: [1]
+epo 0, test, loss=3.6111 acc=0.7175, acc@5=0.8617
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session1_max_acc.pth
+  test acc=71.754
+training session: [2]
+epo 0, test, loss=3.7265 acc=0.6729, acc@5=0.8393
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session2_max_acc.pth
+  test acc=67.286
+training session: [3]
+epo 0, test, loss=3.8326 acc=0.6328, acc@5=0.8127
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session3_max_acc.pth
+  test acc=63.280
+training session: [4]
+epo 0, test, loss=3.9277 acc=0.6004, acc@5=0.7896
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session4_max_acc.pth
+  test acc=60.037
+training session: [5]
+epo 0, test, loss=4.0169 acc=0.5687, acc@5=0.7658
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session5_max_acc.pth
+  test acc=56.871
+training session: [6]
+epo 0, test, loss=4.0996 acc=0.5394, acc@5=0.7438
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session6_max_acc.pth
+  test acc=53.944
+training session: [7]
+epo 0, test, loss=4.1737 acc=0.5195, acc@5=0.7317
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session7_max_acc.pth
+  test acc=51.947
+training session: [8]
+epo 0, test, loss=4.2418 acc=0.5022, acc@5=0.7096
+Saving model to :checkpoint/mini_imagenet/fact/ft_cos-avg_cos-data_init-start_0/Cosine-Epo_1000-Lr_0.1000Bal0.01-LossIter150-T_16.00/session8_max_acc.pth
+  test acc=50.220
+[76.6, 71.754, 67.286, 63.28, 60.037, 56.871, 53.944, 51.947, 50.22]
+Base Session Best epoch: 985
+Total time used 1174.61 mins
